@@ -1,0 +1,86 @@
+/* Define global CSS variables in :root */
+:root {
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.timeline {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+
+.timeline-item {
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-align: center;
+    background: #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s ease;
+}
+
+.timeline-item.active {
+    background: #d83737;
+    color: #fff;
+}
+
+.timeline-item:hover {
+    background: #666;
+    color: #fff;
+}
+
+.slider-container {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: 100%;
+    width: 80%;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    text-align: center;
+}
+
+.slide p {
+    font-size: 16px;
+}
+
+.slide img {
+    height: 40%;
+}
+
