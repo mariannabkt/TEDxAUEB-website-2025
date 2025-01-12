@@ -10,15 +10,18 @@ function changeSlide(index) {
     isScrolling = true;
     currentIndex = index;
 
-    const slider = document.querySelector('.slider');
-    const offset = -currentIndex * 100;
-    slider.style.transform = `translateY(${offset}vh)`;
+    // Scroll the targeted slide into view
+    slides[currentIndex].scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+        block: 'start', // Align the top of the slide with the top of the viewport
+    });
 
     updateTimeline();
 
+    // Set timeout to match the scroll duration
     setTimeout(() => {
         isScrolling = false;
-    }, 800); // Match this timeout with CSS transition duration
+    }, 800); // Adjust based on your smooth scroll duration
 }
 
 function updateTimeline() {
@@ -32,6 +35,8 @@ function updateTimeline() {
 }
 
 function handleScroll(event) {
+    if (isScrolling) return; // Prevent overlapping scroll events
+
     if (event.deltaY > 0) {
         changeSlide(currentIndex + 1); // Scroll down
     } else {
@@ -39,37 +44,19 @@ function handleScroll(event) {
     }
 }
 
+// Event listeners for mouse wheel, key navigation, and timeline clicks
 document.addEventListener('wheel', handleScroll);
 
-// Add click events to timeline items
+// Click events for timeline items
 timelineItems.forEach((item, index) => {
     item.addEventListener('click', () => changeSlide(index));
 });
 
-
-
-function nextSlide() {
-    currentIndex = (currentIndex + 1) % totalSlides;
-    updateSliderPosition();
-}
-
-function prevSlide() {
-    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
-    updateSliderPosition();
-}
-
-function updateSliderPosition() {
-    const slider = document.querySelector('.slider');
-    const offset = -currentIndex * 100;
-    slider.style.transform = `translateY(${offset}%)`;
-    updateTimeline();
-}
-
-// Optional: Add navigation (optional)
-document.addEventListener('keydown', function(e) {
-    if (e.key === "ArrowDown") {
-        nextSlide();
-    } else if (e.key === "ArrowUp") {
-        prevSlide();
+// Key navigation (up and down)
+document.addEventListener('keydown', function (e) {
+    if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+        changeSlide(currentIndex + 1);
+    } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+        changeSlide(currentIndex - 1);
     }
 });

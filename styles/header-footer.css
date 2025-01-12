@@ -173,6 +173,10 @@
     }
 }
 
+footer {
+    position: relative;
+    z-index: 1000;
+}
 
 .top-footer {
     display: flex;
@@ -180,9 +184,8 @@
     align-items: center;
     padding: 15px 50px 0;
     border-width: 0;
-    background-color: #002127; /* Dark Teal Background */
-    color: #f3ff00; /* Bright Yellow Text */
-    font-family: var(--custom-font);
+    background-color: #0e0e0e; /* Dark Teal Background */
+    color: #eb0028; /* Bright Yellow Text */
     gap: 15px;
 }
 
@@ -256,7 +259,7 @@
     object-fit: cover;
     transition: transform 0.3s ease;
     font-size: 1.7rem;
-    color: #f3ff00;
+    color: #ffffff;
 }
 
 .social-icon:hover {

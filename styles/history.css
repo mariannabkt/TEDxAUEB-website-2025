@@ -1,3 +1,43 @@
+body {
+  position: relative;
+  height: 100%;
+}
+
+.events-container {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    text-align: center;
+}
+
+.slide img {
+    max-height: 200px;
+}
+
 .history {
     color: white;
     width: 60%;
@@ -6,12 +46,6 @@
     flex-direction: column;
     gap: 50px;
     text-align: center;
-}
-
-.events-container {
-    display: flex;
-    position: relative;
-    margin-bottom: 50px;
 }
 
 .timeline-container {
@@ -80,36 +114,4 @@
 
 .timeline-item.active::after {
     background-color: #eb0028;
-}
-
-.slider-container {
-    overflow: hidden;
-    position: relative;
-}
-
-.slider {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    width: 80%;
-    transition: transform 1s ease-in-out;
-}
-
-.slide {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
-    color: white;
-    text-align: center;
-}
-
-.slide p {
-    font-size: 16px;
-}
-
-.slide img {
-    height: 40%;
 }

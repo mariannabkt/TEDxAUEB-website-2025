@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TEDxAUEB 2025 Previous Events">
-    <meta name="author" content="TEDxAUEB">
-    <title>TEDxAUEB 2025 Events</title>
-    <link rel="icon" type="image/png" href="styles/images/hand-favicon.png">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="styles/header-footer.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/timeline.css">
-    <!-- Font Awesome CDN link -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/history.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header-footer.css">
 </head>
+
 <body>
     <div class="root">
         <div class="main-container">
@@ -54,36 +51,42 @@
         </nav>
     </div>
 
-    <main>
-        <section class="history">
-            <h2>History of events</h2>
-            <p>Το TEDxAUEB αποτελεί έναν δυναμικό θεσμό που αναδύει εδώ και <strong>13 χρόνια</strong> τη σημασία των ιδεών στη σύγχρονη κοινωνία. 
-                Με κίνητρο την πεποίθηση ότι η καινοτομία και η έμπνευση αναβαθμίζουν τον κόσμο, το TEDxAUEB δημιουργεί έναν χώρο όπου οι πρωτοπόρες ιδέες εκτίθενται και διαδίδονται. 
-                Συγκεντρώνοντας ανθρώπους από διάφορα πεδία, το γεγονός αυτό ανοίγει παράθυρα στη σκέψη, 
-                ενθαρρύνοντας την ανταλλαγή απόψεων και τη δημιουργία κοινοτήτων που προωθούν την πρόοδο. 
-                Μέσα από τις συναρπαστικές ομιλίες αποτελεί επιπλέον πηγή έμπνευσης και ενημέρωσης, καθιστώντας τον κόσμο μας πιο σύνθετο και πλούσιο σε ιδέες.
-            </p>
-        </section>
 
-        <div class="events-container">
-            <div class="timeline-container">
-                <div class="timeline">
-                    <div class="timeline-item active">2024</div>
-                    <div class="timeline-item">2023</div>
-                    <div class="timeline-item">2022</div>
-                    <div class="timeline-item">2021</div>
-                    <div class="timeline-item">2020</div>
-                    <div class="timeline-item">2019</div>
-                    <div class="timeline-item">2018</div>
-                    <div class="timeline-item">2017</div>
-                    <div class="timeline-item">2016</div>
-                    <div class="timeline-item">2015</div>
-                    <div class="timeline-item">2014</div>
-                    <div class="timeline-item">2013</div>
-                </div>
+
+    <div class="events-container">
+        <div class="timeline-container">
+            <div class="timeline">
+                <div class="timeline-item active">Today</div>
+                <div class="timeline-item">2024</div>
+                <div class="timeline-item">2023</div>
+                <div class="timeline-item">2022</div>
+                <div class="timeline-item">2021</div>
+                <div class="timeline-item">2020</div>
+                <div class="timeline-item">2019</div>
+                <div class="timeline-item">2018</div>
+                <div class="timeline-item">2017</div>
+                <div class="timeline-item">2016</div>
+                <div class="timeline-item">2015</div>
+                <div class="timeline-item">2014</div>
+                <div class="timeline-item">2013</div>
             </div>
-            <div class="slider-container">
-                <div class="slider">
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slide">
+                        <h2>History of events</h2>
+                        <p>Το TEDxAUEB αποτελεί έναν δυναμικό θεσμό που αναδύει εδώ και <strong>13 χρόνια</strong> τη σημασία των ιδεών στη σύγχρονη κοινωνία. 
+                            Με κίνητρο την πεποίθηση ότι η καινοτομία και η έμπνευση αναβαθμίζουν τον κόσμο, το TEDxAUEB δημιουργεί έναν χώρο όπου οι πρωτοπόρες ιδέες εκτίθενται και διαδίδονται. 
+                            Συγκεντρώνοντας ανθρώπους από διάφορα πεδία, το γεγονός αυτό ανοίγει παράθυρα στη σκέψη, 
+                            ενθαρρύνοντας την ανταλλαγή απόψεων και τη δημιουργία κοινοτήτων που προωθούν την πρόοδο. 
+                            Μέσα από τις συναρπαστικές ομιλίες αποτελεί επιπλέον πηγή έμπνευσης και ενημέρωσης, καθιστώντας τον κόσμο μας πιο σύνθετο και πλούσιο σε ιδέες.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2024</h3>
                         <h2>Palimpsesto</h2>
@@ -100,6 +103,8 @@
                         </p>
                         <img src="styles/images/events/Palimpsisto.png">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2023</h3>
                         <h2>PANGEA</h2>
@@ -110,6 +115,8 @@
                         </p>
                         <img src="styles/images/events/pangea.webp">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2022</h3>
                         <h2>ANTISTIΞIS</h2>
@@ -121,6 +128,8 @@
                         </p>
                         <img src="styles/images/events/ANTISTIΞIS.png">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2021</h3>
                         <h2>HALKYON</h2>
@@ -133,6 +142,8 @@
                         </p>
                         <img src="styles/images/events/halcyon.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2020</h3>
                         <h2>XYZ - Letters of an Alphabet</h2>
@@ -144,6 +155,8 @@
                         </p>
                         <img src="styles/images/events/xyz.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2019</h3>
                         <h2>BLANK</h2>
@@ -154,6 +167,8 @@
                         </p>
                         <img src="styles/images/events/blank.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2018</h3>
                         <h2>ARCTOS</h2>
@@ -164,6 +179,8 @@
                         </p>
                         <img src="styles/images/events/arctos.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2017</h3>
                         <h2>MOSAIC</h2>
@@ -172,6 +189,8 @@
                         </p>
                         <img src="styles/images/events/mosaic.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2016</h3>
                         <h2>FLOW</h2>
@@ -180,6 +199,8 @@
                         </p>
                         <img src="styles/images/events/flow.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2015</h3>
                         <h2>INERTIA</h2>
@@ -188,6 +209,8 @@
                         </p>
                         <img src="styles/images/events/INERTIA.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2014</h3>
                         <h2>EMERGING PATHS</h2>
@@ -196,6 +219,8 @@
                         </p>
                         <img src="styles/images/events/emerging_paths.jpg">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="slide">
                         <h3>2013</h3>
                         <h2>REDEFINING REALITY</h2>
@@ -206,12 +231,16 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
-        
-        <script src="js/vertical-slider.js"></script>
+    </div>
 
-    </main>
-    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="js/timeline.js"></script>
+
     <footer>
         <div class="top-footer">
             <div class="footer-left">
@@ -251,4 +280,5 @@
     </footer>
 
 </body>
+
 </html>
