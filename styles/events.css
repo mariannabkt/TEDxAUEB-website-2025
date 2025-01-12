@@ -1,0 +1,9 @@
+.history {
+    color: white;
+    width: 60%;
+    margin: 150px auto 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+}

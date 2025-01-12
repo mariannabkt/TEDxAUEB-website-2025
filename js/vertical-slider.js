@@ -62,6 +62,7 @@ function updateSliderPosition() {
     const slider = document.querySelector('.slider');
     const offset = -currentIndex * 100;
     slider.style.transform = `translateY(${offset}%)`;
+    updateTimeline();
 }
 
 // Optional: Add navigation (optional)
