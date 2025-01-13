@@ -1,3 +1,10 @@
+// Array of background images for each slide
+const slideBackgrounds = [
+    "url('images/bg.jpg')",
+    "url(https://tedxaueb.org/wp-content/uploads/2024/03/ProductionBannerPalimpsesto-1920X450.png)",
+    "url('images/bg.jpg')" 
+];
+
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
     slidesPerView: 1,
@@ -33,8 +40,8 @@ document.querySelector('.swiper').addEventListener('wheel', function (e) {
     }
 });
 
-// Get all the timeline items
 const timelineItems = document.querySelectorAll('.timeline-item');
+const swiperbg = document.querySelector('.swiper-bg');
 
 // Add click event listeners to each timeline item
 timelineItems.forEach((item, index) => {
@@ -46,9 +53,16 @@ timelineItems.forEach((item, index) => {
 
 // Update active timeline item when slide changes
 swiper.on('slideChange', function() {
+    // Update the background image of the event container
+    swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
+
     // Remove 'active' class from all timeline items
     timelineItems.forEach(item => item.classList.remove('active'));
     
     // Add 'active' class to the current timeline item based on the current slide index
     timelineItems[swiper.activeIndex].classList.add('active');
 });
+
+
+// Set initial background image on page load
+swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
