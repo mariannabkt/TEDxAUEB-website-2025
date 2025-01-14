@@ -2,7 +2,17 @@
 const slideBackgrounds = [
     "url('images/bg.jpg')",
     "url(https://tedxaueb.org/wp-content/uploads/2024/03/ProductionBannerPalimpsesto-1920X450.png)",
-    "url('images/bg.jpg')" 
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')",
+    "url('images/bg.jpg')"
 ];
 
 var swiper = new Swiper(".mySwiper", {
@@ -53,6 +63,7 @@ timelineItems.forEach((item, index) => {
 
 // Update active timeline item when slide changes
 swiper.on('slideChange', function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
     // Update the background image of the event container
     swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
 
