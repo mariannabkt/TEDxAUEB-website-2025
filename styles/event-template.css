@@ -1,0 +1,127 @@
+.banner {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.event-logo {
+    max-width: 400px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.contents {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 10px 100px 50px;
+}
+
+.date {
+    font-size: 1.3rem;
+}
+
+.place {
+    font-size: 1.5rem;
+}
+
+.desc {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.visit-website {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    border: #ffffff solid 3px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: color 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.palimpsesto {
+    background-color: #E5DDC6;
+    color: #AD9F62;
+}
+
+.palimpsesto .visit-website {
+    color: #AD9F62;
+    border: #AD9F62 solid 3px;
+}
+
+.palimpsesto .visit-website:hover {
+    color: #D46930;
+    border: #D46930 solid 3px;
+}
+
+.pangea {
+    background-color: #F2EFE7;
+    color: #1B6E58;
+}
+
+.pangea .visit-website {
+    color: #1B6E58;
+    border: #1B6E58 solid 3px;
+}
+
+.pangea .visit-website:hover {
+    color: #743697;
+    border: #743697 solid 3px;
+}
+
+.antistixis {
+    background-color: #0A0006;
+    color: #fff;
+}
+
+.antistixis .visit-website {
+    color: #fff;
+    border: #fff solid 3px;
+}
+
+.antistixis .visit-website:hover {
+    color: #942169;
+    border: #942169 solid 3px;
+}
+
+.redefining-reality {
+    background-color:#fff;
+    color:rgb(0, 0, 0);
+    
+}
+
+.redefining-reality .visit-website:hover {
+    color:#eb0028;
+    border: #eb0028 solid 3px;
+}
+
+.inertia {
+    background-color: #eb0028;
+    color:#ffffff;
+}
+
+.flow {
+    background-color: #ffffff;
+    color: black;
+}
+
+.flow .visit-website {
+    color: black;
+    border:black solid 3px;
+}
+
+.flow .visit-website:hover {
+    color:#eb0028;
+    border: #eb0028 solid 3px;
+}
