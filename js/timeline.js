@@ -1,18 +1,18 @@
 // Array of background images for each slide
 const slideBackgrounds = [
-    "url('images/bg.jpg')",
-    "url(https://tedxaueb.org/wp-content/uploads/2024/03/ProductionBannerPalimpsesto-1920X450.png)",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')",
-    "url('images/bg.jpg')"
+    "url('styles/images/events/history-bg.jpg')",
+    "url('styles/images/events/palimpsesto-bg.png')",
+    "url('styles/images/events/pangea-bg.png')",
+    "url('styles/images/events/antistixis-bg4.png')",
+    "url('styles/images/events/halcyon-bg1.png')",
+    "url('styles/images/events/xyz-bg.png')",
+    "url('styles/images/events/blank-bg1.png')",
+    "url('styles/images/events/arctos-bg.png')",
+    "url('styles/images/events/mosaic-bg.png')",
+    "url('styles/images/events/flow-bg.png')",
+    "url('styles/images/events/INERTIA-bg.png')",
+    "url('styles/images/events/emerging_paths-bg.png')",
+    "url('styles/images/events/redefining-bg.png')"
 ];
 
 var swiper = new Swiper(".mySwiper", {

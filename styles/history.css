@@ -93,7 +93,7 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    filter: brightness(40%);
+    filter: brightness(60%);
     z-index: -10;
 }
 
@@ -123,6 +123,32 @@ body {
     text-align: center;
 }
 
+.slide .year {
+    font-size: 3rem;
+}
+
+.slide .title {
+    font-size: 6rem;
+}
+
 .slide img {
     max-height: 200px;
+    max-width: 50%;
+}
+
+.read-more {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    border: #ffffff solid 2px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.read-more:hover {
+    color: #eb0028;
+    background-color: white;
 }
