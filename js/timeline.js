@@ -3,7 +3,7 @@ const slideBackgrounds = [
     "url('styles/images/events/history-bg.jpg')",
     "url('styles/images/events/palimpsesto-bg.png')",
     "url('styles/images/events/pangea-bg.png')",
-    "url('styles/images/events/antistixis-bg4.png')",
+    "url('styles/images/events/antistixis-bg2.png')",
     "url('styles/images/events/halcyon-bg1.png')",
     "url('styles/images/events/xyz-bg.png')",
     "url('styles/images/events/blank-bg1.png')",

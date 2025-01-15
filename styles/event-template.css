@@ -1,0 +1,130 @@
+.banner {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.event-logo {
+    max-width: 400px;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.contents {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 20px 100px 50px;
+}
+
+.date {
+    font-size: 1.3rem;
+}
+
+.place {
+    font-size: 1.5rem;
+}
+
+.desc {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.visit-website {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    border: #ffffff solid 3px;
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: transparent;
+    transition: color 0.5s ease-in-out, border 0.5s ease-in-out;
+}
+
+.palimpsesto {
+    background-color: #E5DDC6;
+    color: #AD9F62;
+}
+
+.palimpsesto .visit-website {
+    color: #AD9F62;
+    border: #AD9F62 solid 3px;
+}
+
+.palimpsesto .visit-website:hover {
+    color: #D46930;
+    border: #D46930 solid 3px;
+}
+
+.pangea {
+    background-color: #F2EFE7;
+    color: #1B6E58;
+}
+
+.pangea .visit-website {
+    color: #1B6E58;
+    border: #1B6E58 solid 3px;
+}
+
+.pangea .visit-website:hover {
+    color: #743697;
+    border: #743697 solid 3px;
+}
+
+.antistixis {
+    background-color: #0A0006;
+    color: #fff;
+}
+
+.antistixis .visit-website {
+    color: #fff;
+    border: #fff solid 3px;
+}
+
+.antistixis .visit-website:hover {
+    color: #942169;
+    border: #942169 solid 3px;
+}
+
+.halcyon {
+    background-color: #624559;
+    color: #F28157;
+}
+
+.xyz {
+    background-color: #060807;
+    color: #fff;
+}
+
+.blank {
+    background-color: #242321;
+    color: #D9D8D9;
+}
+
+.blank .visit-website {
+    color: #D9D8D9;
+    border: #D9D8D9 solid 3px;
+}
+
+.blank .visit-website:hover {
+    color: #8B1B2B;
+    border: #8B1B2B solid 3px;
+}
+
+.arctos {
+    background-color: #17012B;
+}
+
+.mosaic {
+    background-color: #FAAE54;
+    color: #BF2720;
+}
