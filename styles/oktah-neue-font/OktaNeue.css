@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'Okta Neue Extra';
+    src: url('OktaNeue-ExtraLightItalic.eot');
+    src: local('Okta Neue Extra Light Italic'), local('OktaNeue-ExtraLightItalic'),
+        url('OktaNeue-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-ExtraLightItalic.woff2') format('woff2'),
+        url('OktaNeue-ExtraLightItalic.woff') format('woff'),
+        url('OktaNeue-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-BlackItalic.eot');
+    src: local('Okta Neue Black Italic'), local('OktaNeue-BlackItalic'),
+        url('OktaNeue-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-BlackItalic.woff2') format('woff2'),
+        url('OktaNeue-BlackItalic.woff') format('woff'),
+        url('OktaNeue-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Bold.eot');
+    src: local('Okta Neue Bold'), local('OktaNeue-Bold'),
+        url('OktaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Bold.woff2') format('woff2'),
+        url('OktaNeue-Bold.woff') format('woff'),
+        url('OktaNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-BoldItalic.eot');
+    src: local('Okta Neue Bold Italic'), local('OktaNeue-BoldItalic'),
+        url('OktaNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-BoldItalic.woff2') format('woff2'),
+        url('OktaNeue-BoldItalic.woff') format('woff'),
+        url('OktaNeue-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Black.eot');
+    src: local('Okta Neue Black'), local('OktaNeue-Black'),
+        url('OktaNeue-Black.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Black.woff2') format('woff2'),
+        url('OktaNeue-Black.woff') format('woff'),
+        url('OktaNeue-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-MediumItalic.eot');
+    src: local('Okta Neue Medium Italic'), local('OktaNeue-MediumItalic'),
+        url('OktaNeue-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-MediumItalic.woff2') format('woff2'),
+        url('OktaNeue-MediumItalic.woff') format('woff'),
+        url('OktaNeue-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-RegularItalic.eot');
+    src: local('Okta Neue Italic'), local('OktaNeue-RegularItalic'),
+        url('OktaNeue-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-RegularItalic.woff2') format('woff2'),
+        url('OktaNeue-RegularItalic.woff') format('woff'),
+        url('OktaNeue-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-HeavyItalic.eot');
+    src: local('Okta Neue Heavy Italic'), local('OktaNeue-HeavyItalic'),
+        url('OktaNeue-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-HeavyItalic.woff2') format('woff2'),
+        url('OktaNeue-HeavyItalic.woff') format('woff'),
+        url('OktaNeue-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue Extra';
+    src: url('OktaNeue-ExtraLight.eot');
+    src: local('Okta Neue Extra Light'), local('OktaNeue-ExtraLight'),
+        url('OktaNeue-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-ExtraLight.woff2') format('woff2'),
+        url('OktaNeue-ExtraLight.woff') format('woff'),
+        url('OktaNeue-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Heavy.eot');
+    src: local('Okta Neue Heavy'), local('OktaNeue-Heavy'),
+        url('OktaNeue-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Heavy.woff2') format('woff2'),
+        url('OktaNeue-Heavy.woff') format('woff'),
+        url('OktaNeue-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-LightItalic.eot');
+    src: local('Okta Neue Light Italic'), local('OktaNeue-LightItalic'),
+        url('OktaNeue-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-LightItalic.woff2') format('woff2'),
+        url('OktaNeue-LightItalic.woff') format('woff'),
+        url('OktaNeue-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Light.eot');
+    src: local('Okta Neue Light'), local('OktaNeue-Light'),
+        url('OktaNeue-Light.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Light.woff2') format('woff2'),
+        url('OktaNeue-Light.woff') format('woff'),
+        url('OktaNeue-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Medium.eot');
+    src: local('Okta Neue Medium'), local('OktaNeue-Medium'),
+        url('OktaNeue-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Medium.woff2') format('woff2'),
+        url('OktaNeue-Medium.woff') format('woff'),
+        url('OktaNeue-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Thin.eot');
+    src: local('Okta Neue Thin'), local('OktaNeue-Thin'),
+        url('OktaNeue-Thin.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Thin.woff2') format('woff2'),
+        url('OktaNeue-Thin.woff') format('woff'),
+        url('OktaNeue-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: url('OktaNeue-NormalItalic.eot');
+    src: local('Okta Neue Normal Italic'), local('OktaNeue-NormalItalic'),
+        url('OktaNeue-NormalItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-NormalItalic.woff2') format('woff2'),
+        url('OktaNeue-NormalItalic.woff') format('woff'),
+        url('OktaNeue-NormalItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-ThinItalic.eot');
+    src: local('Okta Neue Thin Italic'), local('OktaNeue-ThinItalic'),
+        url('OktaNeue-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-ThinItalic.woff2') format('woff2'),
+        url('OktaNeue-ThinItalic.woff') format('woff'),
+        url('OktaNeue-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue Semi';
+    src: url('OktaNeue-SemiBold.eot');
+    src: local('Okta Neue Semi Bold'), local('OktaNeue-SemiBold'),
+        url('OktaNeue-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-SemiBold.woff2') format('woff2'),
+        url('OktaNeue-SemiBold.woff') format('woff'),
+        url('OktaNeue-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue Semi';
+    src: url('OktaNeue-SemiBoldItalic.eot');
+    src: local('Okta Neue Semi Bold Italic'), local('OktaNeue-SemiBoldItalic'),
+        url('OktaNeue-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-SemiBoldItalic.woff2') format('woff2'),
+        url('OktaNeue-SemiBoldItalic.woff') format('woff'),
+        url('OktaNeue-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue Ultra';
+    src: url('OktaNeue-UltraLightItalic.eot');
+    src: local('Okta Neue Ultra Light Italic'), local('OktaNeue-UltraLightItalic'),
+        url('OktaNeue-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-UltraLightItalic.woff2') format('woff2'),
+        url('OktaNeue-UltraLightItalic.woff') format('woff'),
+        url('OktaNeue-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Okta Neue Normal';
+    src: url('OktaNeue-Normal.eot');
+    src: local('Okta Neue Normal'), local('OktaNeue-Normal'),
+        url('OktaNeue-Normal.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Normal.woff2') format('woff2'),
+        url('OktaNeue-Normal.woff') format('woff'),
+        url('OktaNeue-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue';
+    src: url('OktaNeue-Regular.eot');
+    src: local('Okta Neue'), local('OktaNeue-Regular'),
+        url('OktaNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-Regular.woff2') format('woff2'),
+        url('OktaNeue-Regular.woff') format('woff'),
+        url('OktaNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Okta Neue Ultra';
+    src: url('OktaNeue-UltraLight.eot');
+    src: local('Okta Neue Ultra Light'), local('OktaNeue-UltraLight'),
+        url('OktaNeue-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('OktaNeue-UltraLight.woff2') format('woff2'),
+        url('OktaNeue-UltraLight.woff') format('woff'),
+        url('OktaNeue-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+

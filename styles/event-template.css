@@ -21,7 +21,7 @@
     align-items: center;
     justify-items: center;
     gap: 20px;
-    padding: 20px 100px 50px;
+    padding: 20px 100px 100px;
 }
 
 .date {
@@ -101,7 +101,7 @@
 }
 
 .xyz {
-    background-color: #060807;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -127,4 +127,55 @@
 .mosaic {
     background-color: #FAAE54;
     color: #BF2720;
+}
+
+.flow {
+    background-color: #ffffff;
+    color: black;
+}
+
+.flow .visit-website {
+    color: black;
+    border: black solid 3px;
+}
+
+.flow .visit-website:hover {
+    color: #eb0028;
+    border: #eb0028 solid 3px;
+}
+
+.inertia {
+    background-color: #DEDBD2;
+    color:#423F3A;
+}
+
+.emerging-paths {
+    background-color: #AF2012;
+    color: white;
+}
+
+.redefining-reality {
+    background-color: black;
+    color: white;
+}
+
+.redefining-reality .visit-website:hover {
+    color:#eb0028;
+    border: #eb0028 solid 3px;
+}
+
+#rere-banner {
+    position: relative;
+    max-height: 500px;
+}
+
+#rere-how {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#rere-logo {
+    max-height: 250px;
 }

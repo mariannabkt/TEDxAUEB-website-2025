@@ -128,7 +128,7 @@ body {
 }
 
 .slide .title {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .slide img {
@@ -151,4 +151,21 @@ body {
 .read-more:hover {
     color: #eb0028;
     background-color: white;
+}
+
+.emerging-title, .emerging-subtitle {
+    font-family: var(--oktah-font);
+    text-align: center;
+}
+
+.emerging-title {
+    font-size: 3.5rem;
+    line-height: 1;
+}
+
+.emerging-subtitle {
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 50px;
 }

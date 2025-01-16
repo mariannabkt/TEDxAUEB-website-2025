@@ -10,9 +10,9 @@ const slideBackgrounds = [
     "url('styles/images/events/arctos-bg.png')",
     "url('styles/images/events/mosaic-bg.png')",
     "url('styles/images/events/flow-bg.png')",
-    "url('styles/images/events/INERTIA-bg.png')",
-    "url('styles/images/events/emerging_paths-bg.png')",
-    "url('styles/images/events/redefining-bg.png')"
+    "url('styles/images/events/inertia-bg.jpg')",
+    "url('styles/images/events/emerging_paths-bg.jpg')",
+    "url('styles/images/events/rere-banner.png')"
 ];
 
 var swiper = new Swiper(".mySwiper", {

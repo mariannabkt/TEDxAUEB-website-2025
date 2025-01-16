@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --manrope-font: "Manrope", serif;
-    --inter-font: "Inter", serif;
+    --manrope-font: "Manrope", arial;
+    --inter-font: "Inter", arial;
+    --oktah-font: "Okta Neue", arial;
 }
 
 * {
