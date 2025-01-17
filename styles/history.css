@@ -9,25 +9,24 @@ body {
     z-index: 1;
 }
 
-.history {
-    color: white;
-    width: 60%;
-    margin: 150px auto 100px;
+.timeline-container {
     display: flex;
-    flex-direction: column;
-    gap: 50px;
-    text-align: center;
+    position: fixed;
+    top: 120px;
+    right: 85%;
+    height: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none; 
 }
 
-.timeline-container {
-    position: fixed;
-    top: 0;
-    right: 85%;
+.timeline-container::-webkit-scrollbar {
+    display: none;  
 }
 
 .timeline {
-    top: 120px;
-    height: 80vh;
+    min-width: 120px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -35,15 +34,21 @@ body {
     position: relative;
 }
 
-.timeline::before {
+#line {
+    width: 30px;
+    height: 100%;
+}
+
+#line::before {
     content: '';
     position: absolute;
     width: 3px;
     background-color: white;
     top: 30px;
     bottom: 25px;
-    right: -20px;
+    right: 10px;
     z-index: -5;
+    min-height: 530px;
 }
 
 .timeline-item {
@@ -52,6 +57,7 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 1.3rem;
+    font-weight: 500;
     cursor: pointer;
     transition: font-size 0.25s ease-in-out;
     position: relative;
@@ -121,6 +127,7 @@ body {
     gap: 25px;
     color: white;
     text-align: center;
+    visibility: hidden;
 }
 
 .slide .year {

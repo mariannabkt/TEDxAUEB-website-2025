@@ -35,6 +35,14 @@ var swiper = new Swiper(".mySwiper", {
         },
     },
 });
+const timeline = document.querySelector('.timeline');
+const timelineItems = document.querySelectorAll('.timeline-item');
+const swiperbg = document.querySelector('.swiper-bg');
+const slides = document.querySelectorAll('.slide');
+
+slides[0].style.visibility = 'visible';
+// Set initial background image on page load
+swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
 
 // Custom mousewheel event for desktop scroll
 document.querySelector('.swiper').addEventListener('wheel', function (e) {
@@ -50,8 +58,6 @@ document.querySelector('.swiper').addEventListener('wheel', function (e) {
     }
 });
 
-const timelineItems = document.querySelectorAll('.timeline-item');
-const swiperbg = document.querySelector('.swiper-bg');
 
 // Add click event listeners to each timeline item
 timelineItems.forEach((item, index) => {
@@ -64,16 +70,34 @@ timelineItems.forEach((item, index) => {
 // Update active timeline item when slide changes
 swiper.on('slideChange', function() {
     window.scrollTo({top: 0, behavior: 'smooth'});
+
+    const activeIndex = swiper.activeIndex;
+
     // Update the background image of the event container
-    swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
+    swiperbg.style.backgroundImage = slideBackgrounds[activeIndex];
 
-    // Remove 'active' class from all timeline items
-    timelineItems.forEach(item => item.classList.remove('active'));
+    timelineItems.forEach((item, index) => {
+        item.classList.toggle('active', index === activeIndex);
+    });
+
+    slides.forEach((slide) => {
+        slide.style.visibility = 'hidden';
+    });
+    slides[activeIndex].style.visibility = 'visible';
+
+    const activeItem = document.querySelector('.timeline-item.active');
+
+    // Scroll the active timeline item into view
+    if (activeItem) {
+        const container = document.querySelector('.timeline-container');
+        const containerHeight = container.offsetHeight;
+        const activeItemTop = activeItem.offsetTop;
+        const activeItemHeight = activeItem.offsetHeight;
+
+        // Calculate the scroll position to center the active item
+        const scrollPosition = activeItemTop - containerHeight / 2 + activeItemHeight / 2;
+
+        container.scrollTop = scrollPosition; // Set the scroll position directly
+    }
     
-    // Add 'active' class to the current timeline item based on the current slide index
-    timelineItems[swiper.activeIndex].classList.add('active');
 });
-
-
-// Set initial background image on page load
-swiperbg.style.backgroundImage = slideBackgrounds[swiper.activeIndex];
