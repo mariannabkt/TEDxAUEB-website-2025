@@ -7,7 +7,7 @@ const slideBackgrounds = [
     "url('styles/images/events/halcyon-bg1.png')",
     "url('styles/images/events/xyz-bg.png')",
     "url('styles/images/events/blank-bg1.png')",
-    "url('styles/images/events/arctos-bg.png')",
+    "url('styles/images/events/arctos-bg.jpg')",
     "url('styles/images/events/mosaic-bg.png')",
     "url('styles/images/events/flow-bg.png')",
     "url('styles/images/events/inertia-bg.jpg')",
