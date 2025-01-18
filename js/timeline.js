@@ -1,18 +1,18 @@
 // Array of background images for each slide
 const slideBackgrounds = [
     "url('styles/images/events/history-bg.jpg')",
-    "url('styles/images/events/palimpsesto-bg.png')",
-    "url('styles/images/events/pangea-bg.png')",
-    "url('styles/images/events/antistixis-bg2.png')",
-    "url('styles/images/events/halcyon-bg1.png')",
-    "url('styles/images/events/xyz-bg.png')",
-    "url('styles/images/events/blank-bg1.png')",
-    "url('styles/images/events/arctos-bg.jpg')",
-    "url('styles/images/events/mosaic-bg.png')",
-    "url('styles/images/events/flow-bg.png')",
-    "url('styles/images/events/inertia-bg.jpg')",
-    "url('styles/images/events/emerging_paths-bg.jpg')",
-    "url('styles/images/events/rere-banner.png')"
+    "url('styles/images/events/palimpsesto/palimpsesto-bg.png')",
+    "url('styles/images/events/pangea/pangea-bg.png')",
+    "url('styles/images/events/antistixis/antistixis-bg2.png')",
+    "url('styles/images/events/halcyon/halcyon-bg1.png')",
+    "url('styles/images/events/xyz/xyz-bg.png')",
+    "url('styles/images/events/blank/blank-bg1.png')",
+    "url('styles/images/events/arctos/arctos-bg.jpg')",
+    "url('styles/images/events/mosaic/mosaic-bg.png')",
+    "url('styles/images/events/flow/flow-bg.png')",
+    "url('styles/images/events/inertia/inertia-bg.jpg')",
+    "url('styles/images/events/emerging-paths/emerging_paths-bg.jpg')",
+    "url('styles/images/events/rere/rere-banner.png')"
 ];
 
 var swiper = new Swiper(".mySwiper", {
