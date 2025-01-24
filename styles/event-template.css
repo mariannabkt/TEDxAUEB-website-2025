@@ -100,6 +100,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: default;
 }
   
 .stat h3 {
@@ -161,19 +162,19 @@
 
 .palimpsesto {
     background-color: #E5DDC6;
-    color: #AD9F62;
-}
-
-.palimpsesto .heading, .palimpsesto .place {
     color: #D46930;
 }
 
-.palimpsesto .date, .palimpsesto .stat {
+.palimpsesto .desc {
+    color: #AD9F62;
+}
+
+.palimpsesto .date, .palimpsesto .stat, .palimpsesto .swiper-scrollbar-drag {
     background-color: #D46930;
     color: #E5DDC6;
 }
 
-.palimpsesto .swiper-scrollbar-drag, .palimpsesto .stat:hover {
+.palimpsesto .stat:hover {
     background-color: #AD9F62;
 }
 
@@ -251,7 +252,30 @@
 
 .halcyon {
     background-color: #624559;
+    color: #DDDDE5;
+}
+
+.halcyon .heading, .halcyon .place {
     color: #F28157;
+}
+
+.halcyon .date, .halcyon .stat {
+    background-color: #F28157;
+    color: #DDDDE5;
+}
+
+.halcyon .swiper-scrollbar-drag, .halcyon .stat:hover {
+    background-color: #23D2AA;
+}
+
+.halcyon .visit-website {
+    color: #F28157;
+    border: #F28157 solid 3px;
+}
+
+.halcyon .visit-website:hover {
+    color: #23D2AA;
+    border: #23D2AA solid 3px;
 }
 
 

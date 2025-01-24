@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    background-color: black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto 100px;
+    gap: 50px;
+    color: white;
+}
+
+.about-section {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about h1, .about-section h2 {
+    color: #eb0028;
+    font-size: 2rem;
+}
+
+.about img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-section .about-img {
+    max-height: 30px;
+    width: auto;
+    object-fit: contain;
+}
