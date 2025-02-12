@@ -24,16 +24,24 @@
 }
 
 .video .year {
-    position: absolute;
-    top: -7px;
-    left: -7px;
     background-color: #eb0028;
-    padding: 5px 10px;
+    padding: 8px 18px;
     border-radius: 18px 0;
-    border-width: 8px;
-    border-color: rgb(8, 8, 8);
-    border-style: solid;
+}
 
+.year-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(8, 8, 8);
+    padding: 0 8px 8px 0;
+    border-radius: 26px 0;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-right-width: 3px;
+    border-right-color: white;
+    border-right-style: solid;
 }
 
 .video > img {
@@ -41,6 +49,7 @@
     object-fit: cover;
     border-radius: 18px;
     width: 100%;
+    border: white solid 3px;
 }
 
 .video-title {
@@ -55,20 +64,38 @@
     text-decoration: underline;
 }
 
+.btn-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(8, 8, 8);
+    padding: 8px 0 0 8px;
+    border-radius: 26px 0;
+    border-top-width: 3px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-left-width: 3px;
+    border-left-color: white;
+    border-left-style: solid;
+}
+
 .video button {
     font-size: calc(12px + 0.6vw);
     display: flex;
     gap: 10px;
-    padding: 8px 13px;
+    padding: 10px 15px;
     justify-content: space-around;
     align-items: center;
     color: white;
     background-color: rgb(8, 8, 8);
     border-radius: 18px 0;
-    border: white solid 2px;
+    border: white solid 3px;
     border-style: solid;
-    position: absolute;
-    bottom: 0;
-    right: 0;
     cursor: pointer;
+}
+
+
+.video button:hover {
+    color: rgb(8, 8, 8);
+    background-color: white;
 }
