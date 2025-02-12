@@ -1,0 +1,8 @@
+Dimitris 2, 9
+lianna 3, 11
+maro 3, 4
+monica 5, 6
+stravroula 5, 8
+Vivian 4, 7 , 8
+tsarado 2, 4, 6
+sales 4, 5, 6, 15
