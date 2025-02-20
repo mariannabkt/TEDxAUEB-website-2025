@@ -7,11 +7,51 @@
     align-items: center;
 }
 
+.filters {
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter select {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    cursor: pointer; 
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: var(--manrope-font);
+}
+
+.filter select option {
+    background-color: rgb(8, 8, 8);
+    color: white;
+    cursor: pointer; 
+}
+
+
+.filter select option:hover {
+    background-color: #eb0028;
+    cursor: pointer; 
+    box-shadow: 0 0 10px 100px #ff0000 inset;
+}
+
+
 .videos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 5%;
 }
 

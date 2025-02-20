@@ -1,0 +1,935 @@
+{
+    "videos": [
+        {
+            "title": "Μια ιστορία αυτοσχεδιασμού  | Saske  | TEDxAUEB",
+            "videoId": "0mx9mxgRTjI",
+            "thumbnailUrl": "https://img.youtube.com/vi/0mx9mxgRTjI/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Το παλίμψηστο ίσως να είναι μια κάποια λύση!  | Marianna Toumasatou | TEDxAUEB",
+            "videoId": "ZW0kqFZF2NI",
+            "thumbnailUrl": "https://img.youtube.com/vi/ZW0kqFZF2NI/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Παλίμψηστο: Αθέατες Αφηγήσεις Τέχνης  | Yannis Kolokotronis | TEDxAUEB",
+            "videoId": "7SB-NZb3RCc",
+            "thumbnailUrl": "https://img.youtube.com/vi/7SB-NZb3RCc/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Οι τρεις εκθετικές αλλαγές που γέννησαν την τεχνητή νοημοσύνη  | Diomidis Spinellis | TEDxAUEB",
+            "videoId": "f_dVU662UC4",
+            "thumbnailUrl": "https://img.youtube.com/vi/f_dVU662UC4/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Redefining career paths: A journey beyond biases  | Christina Leimoni | TEDxAUEB",
+            "videoId": "0xi_eGTccpo",
+            "thumbnailUrl": "https://img.youtube.com/vi/0xi_eGTccpo/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Εσείς βρήκατε το σπίτι σας;  | Sam Albatros | TEDxAUEB",
+            "videoId": "EXatWSIffOU",
+            "thumbnailUrl": "https://img.youtube.com/vi/EXatWSIffOU/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Είμαι σχεδιάστρια μόδας;  | Christina Kontova | TEDxAUEB",
+            "videoId": "iI2hZqwpLh4",
+            "thumbnailUrl": "https://img.youtube.com/vi/iI2hZqwpLh4/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Μπορεί μία φυλακή να είναι φωτεινή;  | Fotini Leobilla | TEDxAUEB",
+            "videoId": "7qjRvWlk2bg",
+            "thumbnailUrl": "https://img.youtube.com/vi/7qjRvWlk2bg/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "SURFING THE WAVES OF LIFE  | Giannis Tsoutis | TEDxAUEB",
+            "videoId": "AhsfQ4WjJuw",
+            "thumbnailUrl": "https://img.youtube.com/vi/AhsfQ4WjJuw/0.jpg",
+            "year": "2024",
+            "event": "Palimpsesto"
+        },
+        {
+            "title": "Διαχωρισμός Παγγαίας και αυτοοργάνωση στην Απάνω Μεριά Σύρου | Dora Tsipra | TEDxAUEB",
+            "videoId": "plmAhceaqqA",
+            "thumbnailUrl": "https://img.youtube.com/vi/plmAhceaqqA/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Addressing grand challenges: the role of creativity | Ioannis Thanos | TEDxAUEB",
+            "videoId": "Chwb7cXufSo",
+            "thumbnailUrl": "https://img.youtube.com/vi/Chwb7cXufSo/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Περισσότερες ερωτήσεις, λιγότερες καταφάσεις | Katerina Papanikolaou | TEDxAUEB",
+            "videoId": "vl5KCYyS2t8",
+            "thumbnailUrl": "https://img.youtube.com/vi/vl5KCYyS2t8/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Πως νιώθεις; | Novel 729 | TEDxAUEB",
+            "videoId": "l2YR9XxDsZI",
+            "thumbnailUrl": "https://img.youtube.com/vi/l2YR9XxDsZI/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Η αξία της αποτυχίας | Nassia Matsa | TEDxAUEB",
+            "videoId": "f9anmqJCU8U",
+            "thumbnailUrl": "https://img.youtube.com/vi/f9anmqJCU8U/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Πως να ταξιδέψετε στην Αρχαία Αθήνα με ένα ποτήρι κρασί | The Mythologist | TEDxAUEB",
+            "videoId": "Spqyxh6hzWU",
+            "thumbnailUrl": "https://img.youtube.com/vi/Spqyxh6hzWU/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Η φύση του ποδοσφαίρου | Dimitris Moisiadis & Aggelos Giakoumidis | TEDxAUEB",
+            "videoId": "A-h-NC1vXqI",
+            "thumbnailUrl": "https://img.youtube.com/vi/A-h-NC1vXqI/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Ο εγκέφαλος στη χώρα των νοητικών προκαταλήψεων | The Mad Scientist | TEDxAUEB",
+            "videoId": "C0VOcpn_s6A",
+            "thumbnailUrl": "https://img.youtube.com/vi/C0VOcpn_s6A/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Σύνδεση πολιτισμών μέσω της γαστρονομίας | Phoebe-Anna Krystalli | TEDxAUEB",
+            "videoId": "T6m9iDjn9Hs",
+            "thumbnailUrl": "https://img.youtube.com/vi/T6m9iDjn9Hs/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Το παράπονο μας #thegreekgirl | Euridiki Koffa | TEDxAUEB",
+            "videoId": "-xYC4TsRqoc",
+            "thumbnailUrl": "https://img.youtube.com/vi/-xYC4TsRqoc/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Ήθελα να πεθάνω | Fipsterr  | TEDxAUEB",
+            "videoId": "vYz-dFHgeb4",
+            "thumbnailUrl": "https://img.youtube.com/vi/vYz-dFHgeb4/0.jpg",
+            "year": "2023",
+            "event": "Pangaia"
+        },
+        {
+            "title": "Maria Gianniou | TEDxAUEB 2022  | Maria Gianniou | TEDxAUEB",
+            "videoId": "bzjyCWQwqhM",
+            "thumbnailUrl": "https://img.youtube.com/vi/bzjyCWQwqhM/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "ANTISTIXIS | Christoforos Peskias | TEDxAUEB",
+            "videoId": "ZXuPldWzXtA",
+            "thumbnailUrl": "https://img.youtube.com/vi/ZXuPldWzXtA/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "ANTISTIXIS | Mina Psichogiou | TEDxAUEB",
+            "videoId": "QTUxmYnPTX0",
+            "thumbnailUrl": "https://img.youtube.com/vi/QTUxmYnPTX0/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "James Ehrlich | TEDxAUEB 2022 | James Ehrlich | TEDxAUEB",
+            "videoId": "ZaR-rdKHMSU",
+            "thumbnailUrl": "https://img.youtube.com/vi/ZaR-rdKHMSU/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "A Shiny Day | Alexandra Diona | TEDxAUEB 2022 | Alexandra Diona | TEDxAUEB",
+            "videoId": "eJ3ATVzLQuo",
+            "thumbnailUrl": "https://img.youtube.com/vi/eJ3ATVzLQuo/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Antonis Sykaris | TEDxAUEB 2022 | Antonis Sykaris | TEDxAUEB",
+            "videoId": "7cbKGkukP1U",
+            "thumbnailUrl": "https://img.youtube.com/vi/7cbKGkukP1U/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Cool Crips | Spyros Ntantanidis | TEDxAUEB 2022 | Spiros Dadanides | TEDxAUEB",
+            "videoId": "ccpXWMyGbLY",
+            "thumbnailUrl": "https://img.youtube.com/vi/ccpXWMyGbLY/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Panos Georgoulias | TEDxAUEB 2022  | Panos Georgoulias | TEDxAUEB",
+            "videoId": "dfkdCNZvWoY",
+            "thumbnailUrl": "https://img.youtube.com/vi/dfkdCNZvWoY/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Aretakis Stefanos | TEDxAUEB 2022 | Stefanos Aretakis | TEDxAUEB",
+            "videoId": "EINiMHxS9Xo",
+            "thumbnailUrl": "https://img.youtube.com/vi/EINiMHxS9Xo/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Ksenia Dania | TEDxAUEB 2022 | Ksenia Dania | TEDxAUEB",
+            "videoId": "1OyZXYQnhqM",
+            "thumbnailUrl": "https://img.youtube.com/vi/1OyZXYQnhqM/0.jpg",
+            "year": "2022",
+            "event": "ANTISTIXIS"
+        },
+        {
+            "title": "Νέα πρότυπα ομορφιάς | Angelos Bratis | TEDxAUEB",
+            "videoId": "Mh2UsEKYVhk",
+            "thumbnailUrl": "https://img.youtube.com/vi/Mh2UsEKYVhk/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Seize the day | Anna Siatouni | TEDxAUEB",
+            "videoId": "vkSVvQUBBOk",
+            "thumbnailUrl": "https://img.youtube.com/vi/vkSVvQUBBOk/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Find your inner Clown | Σωτήρης Φωκέας (Soteur) | TEDxAUEB",
+            "videoId": "iuqM3G9wlM0",
+            "thumbnailUrl": "https://img.youtube.com/vi/iuqM3G9wlM0/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Reject in the making | Reject aka Lex | TEDxAUEB",
+            "videoId": "1fGFcIzYjxo",
+            "thumbnailUrl": "https://img.youtube.com/vi/1fGFcIzYjxo/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Θα χειροτερέψει… πριν καλυτερέψει | Giannis Sarakatsanis | TEDxAUEB",
+            "videoId": "Pg-53rB6azs",
+            "thumbnailUrl": "https://img.youtube.com/vi/Pg-53rB6azs/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Ταξίδι μέσα από το βλέμμα της ελπίδας | Alexandros Tsoutis | TEDxAUEB",
+            "videoId": "zhmlVxf0q1Y",
+            "thumbnailUrl": "https://img.youtube.com/vi/zhmlVxf0q1Y/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Περί Μεταμορφώσεων | Georgina Liossi | TEDxAUEB",
+            "videoId": "ObWKm9fMwyE",
+            "thumbnailUrl": "https://img.youtube.com/vi/ObWKm9fMwyE/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "The world by 2049 and how to predict the future | Dimitris Dimitriadis | TEDxAUEB",
+            "videoId": "38APK-H2JGU",
+            "thumbnailUrl": "https://img.youtube.com/vi/38APK-H2JGU/0.jpg",
+            "year": "2021",
+            "event": "HALCYON"
+        },
+        {
+            "title": "Can technology make democracy great again? | Dan Merly Sobovitz | TEDxAUEB",
+            "videoId": "cJ7Ejj4fOvE",
+            "thumbnailUrl": "https://img.youtube.com/vi/cJ7Ejj4fOvE/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Δημιουργώντας ευκαιρίες για τους αστέγους | Thanos Spiliopoulos | TEDxAUEB",
+            "videoId": "X0WcmJuXQW0",
+            "thumbnailUrl": "https://img.youtube.com/vi/X0WcmJuXQW0/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Fashion from waste | Natalie Glaze | TEDxAUEB",
+            "videoId": "u5K8AsfUKO4",
+            "thumbnailUrl": "https://img.youtube.com/vi/u5K8AsfUKO4/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Mε δύναμη τη θέληση | Argiris Koumtzis | TEDxAUEB",
+            "videoId": "mxQ1LSJvgxU",
+            "thumbnailUrl": "https://img.youtube.com/vi/mxQ1LSJvgxU/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Εντόμου λέξεις | Antonis Tsagarakis | TEDxAUEB",
+            "videoId": "an0vqT_o--k",
+            "thumbnailUrl": "https://img.youtube.com/vi/an0vqT_o--k/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Μια διαφορετική προσέγγιση της θεωρίας των πιθανοτήτων | John Taramas | TEDxAUEB",
+            "videoId": "2sYmFNf1iuI",
+            "thumbnailUrl": "https://img.youtube.com/vi/2sYmFNf1iuI/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "The power remembering not to forget | Desy Karapchanska | TEDxAUEB",
+            "videoId": "dFbMXpTNa2I",
+            "thumbnailUrl": "https://img.youtube.com/vi/dFbMXpTNa2I/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Transcending narratives | Omi Chowdhury | TEDxAUEB",
+            "videoId": "yd84XkCqMf8",
+            "thumbnailUrl": "https://img.youtube.com/vi/yd84XkCqMf8/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Στο γήπεδο με φώναζαν Μήτσο | Dimitra Zaponidou | TEDxAUEB",
+            "videoId": "fZ4qwg-x5Os",
+            "thumbnailUrl": "https://img.youtube.com/vi/fZ4qwg-x5Os/0.jpg",
+            "year": "2020",
+            "event": "XYZ: Letters of an Alphabet"
+        },
+        {
+            "title": "Γεμίζοντας το κενό με χιούμορ | Katerina Vrana | TEDxAUEB",
+            "videoId": "a759__boWXs",
+            "thumbnailUrl": "https://img.youtube.com/vi/a759__boWXs/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Από τις κενές σελίδες στη χαρά για δημιουργία | Alkioni Papadaki | TEDxAUEB",
+            "videoId": "N2NPX4yUcuA",
+            "thumbnailUrl": "https://img.youtube.com/vi/N2NPX4yUcuA/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Closing the distance. The patient - doctor relationship in 3 stories  | Stefanos Tsallas | TEDxAUEB",
+            "videoId": "MP76HDo8G74",
+            "thumbnailUrl": "https://img.youtube.com/vi/MP76HDo8G74/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "You are your choices | Connie Chiu | TEDxAUEB",
+            "videoId": "U7G46liDemI",
+            "thumbnailUrl": "https://img.youtube.com/vi/U7G46liDemI/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Βραβευμένος σεφ ή ατίθασος μάγειρας; | Nikos Karathanos | TEDxAUEB",
+            "videoId": "oVhAwVbrOLI",
+            "thumbnailUrl": "https://img.youtube.com/vi/oVhAwVbrOLI/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Blank and Blindness | Maria Georgakarakou | TEDxAUEB",
+            "videoId": "UWDFvHzcOH4",
+            "thumbnailUrl": "https://img.youtube.com/vi/UWDFvHzcOH4/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Συμπληρώνοντας το κενό της γνώσης μας για το σύμπαν | Dionysios Simopoulos | TEDxAUEB",
+            "videoId": "L74x7SCrGGQ",
+            "thumbnailUrl": "https://img.youtube.com/vi/L74x7SCrGGQ/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Από την εξάρτηση στην απεξάρτηση | Dimitra Sfika | TEDxAUEB",
+            "videoId": "wQxqFw13aWI",
+            "thumbnailUrl": "https://img.youtube.com/vi/wQxqFw13aWI/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Unifying Humanity in the Digital Age | Daniel Hulme | TEDxAUEB",
+            "videoId": "hJOkrWj3o9U",
+            "thumbnailUrl": "https://img.youtube.com/vi/hJOkrWj3o9U/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Think like a Designer. Act like an Athlete | Rania Svoronou | TEDxAUEB",
+            "videoId": "3-g9so1uASY",
+            "thumbnailUrl": "https://img.youtube.com/vi/3-g9so1uASY/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Ενεργοποίησε τον super ήρωα που κρύβεται μέσα σου | Katerina Soldatou | TEDxAUEB",
+            "videoId": "7HQtT2_DSIM",
+            "thumbnailUrl": "https://img.youtube.com/vi/7HQtT2_DSIM/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Από το κενό στη νέα εικόνα | Juliano Kaglis | TEDxAUEB",
+            "videoId": "Pup-1VALgbs",
+            "thumbnailUrl": "https://img.youtube.com/vi/Pup-1VALgbs/0.jpg",
+            "year": "2019",
+            "event": "BLANK"
+        },
+        {
+            "title": "Φεστιβάλ και πόλεις, μια σχέση του μέλλοντος | Anastasios Diolatzis | TEDxAUEB",
+            "videoId": "suqIlj5jiQg",
+            "thumbnailUrl": "https://img.youtube.com/vi/suqIlj5jiQg/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "From backpacks to briefcases and beyond | Panagiotis Madamopoulos-Moraris | TEDxAUEB",
+            "videoId": "lU84w_xk_zc",
+            "thumbnailUrl": "https://img.youtube.com/vi/lU84w_xk_zc/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Ταξίδι στην ευτυχία | Fotini Pantzia | TEDxAUEB",
+            "videoId": "48EHb8AMrKE",
+            "thumbnailUrl": "https://img.youtube.com/vi/48EHb8AMrKE/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "The Governor of My Life | Spyros Dafnis | TEDxAUEB",
+            "videoId": "hBA6FKRB2O4",
+            "thumbnailUrl": "https://img.youtube.com/vi/hBA6FKRB2O4/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Mythology and Contemporary Astronomy of Ursa Major | Fiori - Anastasia Metallinou | TEDxAUEB",
+            "videoId": "O5RQUlB1eBs",
+            "thumbnailUrl": "https://img.youtube.com/vi/O5RQUlB1eBs/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "The shipping industry looks for you | Ilias Bissias | TEDxAUEB",
+            "videoId": "bw1Porh1G4w",
+            "thumbnailUrl": "https://img.youtube.com/vi/bw1Porh1G4w/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "All we see is the sea | Christianna Ekonomou | TEDxAUEB",
+            "videoId": "_D-gOnZUuq4",
+            "thumbnailUrl": "https://img.youtube.com/vi/_D-gOnZUuq4/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Human Trafficking: If this is a market, who feeds the demand? | Eva Karra | TEDxAUEB",
+            "videoId": "dmVXgbGILAM",
+            "thumbnailUrl": "https://img.youtube.com/vi/dmVXgbGILAM/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "War is a way to give meaning to your life | Ton Koene | TEDxAUEB",
+            "videoId": "3jIJY88s0v4",
+            "thumbnailUrl": "https://img.youtube.com/vi/3jIJY88s0v4/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Is it possible to live a 'zero waste' life? | Bianca Mularoni | TEDxAUEB",
+            "videoId": "RhW1QgXZnos",
+            "thumbnailUrl": "https://img.youtube.com/vi/RhW1QgXZnos/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Arctos: Ancient myths in a modern World | Andromache Karanika | TEDxAUEB",
+            "videoId": "NeEjIjPGEnk",
+            "thumbnailUrl": "https://img.youtube.com/vi/NeEjIjPGEnk/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Τhe importance of creativity and innovation through heritage influence | Lydia Vousvouni | TEDxAUEB",
+            "videoId": "aUjoKOxbosk",
+            "thumbnailUrl": "https://img.youtube.com/vi/aUjoKOxbosk/0.jpg",
+            "year": "2018",
+            "event": "ARCTOS"
+        },
+        {
+            "title": "Diversity is great, but tough as well | Fanis Kollias | TEDxAUEB",
+            "videoId": "uGJOvacV7pg",
+            "thumbnailUrl": "https://img.youtube.com/vi/uGJOvacV7pg/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Finding my way in Athens  | Thomas Zampras | TEDxAUEB",
+            "videoId": "IPwqB_Nyve0",
+            "thumbnailUrl": "https://img.youtube.com/vi/IPwqB_Nyve0/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Brain: A machine that is trying to understand how it works | George Dassios | TEDxAUEB",
+            "videoId": "hC-VGPgx3UU",
+            "thumbnailUrl": "https://img.youtube.com/vi/hC-VGPgx3UU/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Paris like you have never seen it before | Sebastian Erras | TEDxAUEB",
+            "videoId": "rd1CjZMxKr4",
+            "thumbnailUrl": "https://img.youtube.com/vi/rd1CjZMxKr4/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "LEARN TO LOVE WHAT YOU DO | Marie Halaka | TEDxAUEB",
+            "videoId": "EQToIoGV4M4",
+            "thumbnailUrl": "https://img.youtube.com/vi/EQToIoGV4M4/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "The mosaic of a Paralympic athlete | Antonis Tsapatakis | TEDxAUEB",
+            "videoId": "kS6JaPS8r_g",
+            "thumbnailUrl": "https://img.youtube.com/vi/kS6JaPS8r_g/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Mosaic of good nutrition | Nasia Pachaleri | TEDxAUEB",
+            "videoId": "WTcj2iLnjCY",
+            "thumbnailUrl": "https://img.youtube.com/vi/WTcj2iLnjCY/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Mosaic flows | Olga Goulandris | TEDxAUEB",
+            "videoId": "LOcrKbDw_G8",
+            "thumbnailUrl": "https://img.youtube.com/vi/LOcrKbDw_G8/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "What kind of ingredient are you? | Eleutheria Zourou | TEDxAUEB",
+            "videoId": "4ZRAcUHrHHs",
+            "thumbnailUrl": "https://img.youtube.com/vi/4ZRAcUHrHHs/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Gender Capitalism | Rain Dove | TEDxAUEB",
+            "videoId": "EKgfHc6umRU",
+            "thumbnailUrl": "https://img.youtube.com/vi/EKgfHc6umRU/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "The art of tattoo as a form of expression | Antonis Ntzegkoutanis | TEDxAUEB",
+            "videoId": "NCw-LngRLLs",
+            "thumbnailUrl": "https://img.youtube.com/vi/NCw-LngRLLs/0.jpg",
+            "year": "2017",
+            "event": "MOSAIC"
+        },
+        {
+            "title": "Going with the flow or defying the current? | Amani Al-Khatahtbeh | TEDxAUEB",
+            "videoId": "6ZumVombbpM",
+            "thumbnailUrl": "https://img.youtube.com/vi/6ZumVombbpM/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "Why is financial banking system bound to fail (again)? | Thanasis Mavridis | TEDxAUEB",
+            "videoId": "5_qKAM9Nmzo",
+            "thumbnailUrl": "https://img.youtube.com/vi/5_qKAM9Nmzo/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "When you stop dreaming, you stop living | Panagiotis Mihail | TEDxAUEB",
+            "videoId": "Q3xpcNlGI0k",
+            "thumbnailUrl": "https://img.youtube.com/vi/Q3xpcNlGI0k/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "Τι δεν σου είπαν στο σχολείο για τον επαγγελματικό προσανατολισμό | Spyros Michaloulis | TEDxAUEB",
+            "videoId": "fZi1f2OS7nU",
+            "thumbnailUrl": "https://img.youtube.com/vi/fZi1f2OS7nU/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "From a University library to the Burundi jail | Spiros-Richard Hagabimana | TEDxAUEB",
+            "videoId": "8rwMfsOVvvY",
+            "thumbnailUrl": "https://img.youtube.com/vi/8rwMfsOVvvY/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "Crisis as a lever for Change | Charis Katakis | TEDxAUEB",
+            "videoId": "pbtdeK7S3PQ",
+            "thumbnailUrl": "https://img.youtube.com/vi/pbtdeK7S3PQ/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "People on Move, Lives on Hold | Giorgos Kosmopoulos | TEDxAUEB",
+            "videoId": "IfFfUYcM03I",
+            "thumbnailUrl": "https://img.youtube.com/vi/IfFfUYcM03I/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "One career path consists of many other career paths | Katerina Papanagiotou | TEDxAUEB",
+            "videoId": "z2C7OpLImQs",
+            "thumbnailUrl": "https://img.youtube.com/vi/z2C7OpLImQs/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "The value of a Night Mayor for a city | Ella Overkleeft | TEDxAUEB",
+            "videoId": "FwJSm6303ck",
+            "thumbnailUrl": "https://img.youtube.com/vi/FwJSm6303ck/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "When not to go with the flow | Silas Serafim | TEDxAUEB",
+            "videoId": "BB-ezd6Nh9g",
+            "thumbnailUrl": "https://img.youtube.com/vi/BB-ezd6Nh9g/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "Breakfast with Sinnead O'Connor | Christina Karagiannis | TEDxAUEB",
+            "videoId": "F_k00h-RAS4",
+            "thumbnailUrl": "https://img.youtube.com/vi/F_k00h-RAS4/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "How do Humans interact with Natural Resources' Flows? | Phoebe Koundouri | TEDxAUEB",
+            "videoId": "G0j1o_lQMTw",
+            "thumbnailUrl": "https://img.youtube.com/vi/G0j1o_lQMTw/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "How to turn LHC data into music | Angelos Alexopoulos & Konstantinos Vasilakos | TEDxAUEB",
+            "videoId": "wqnWPNiu9jI",
+            "thumbnailUrl": "https://img.youtube.com/vi/wqnWPNiu9jI/0.jpg",
+            "year": "2016",
+            "event": "flow"
+        },
+        {
+            "title": "Congratulations, you graduated! Now what? | Isabelle Moser | TEDxAUEB",
+            "videoId": "o9g6MTzo3_Q",
+            "thumbnailUrl": "https://img.youtube.com/vi/o9g6MTzo3_Q/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Art as experience | Angelika Vaxevanidou | TEDxAUEB",
+            "videoId": "FPdwv9FBs68",
+            "thumbnailUrl": "https://img.youtube.com/vi/FPdwv9FBs68/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Employment and choices | Giorgos Pinteris | TEDxAUEB",
+            "videoId": "SvZrLFdLpiM",
+            "thumbnailUrl": "https://img.youtube.com/vi/SvZrLFdLpiM/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Immigration: Motion in stillness, stillness in motion | Maria Panagiotidou | TEDxAUEB",
+            "videoId": "wWg2V1PZ7zs",
+            "thumbnailUrl": "https://img.youtube.com/vi/wWg2V1PZ7zs/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Is it enough for Greece just to beat inertia? | Alexandros Costopoulos | TEDxAUEB",
+            "videoId": "_gGTiN_Ps64",
+            "thumbnailUrl": "https://img.youtube.com/vi/_gGTiN_Ps64/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Animated videos and social action | Nicolò Ceccarelli | TEDxAUEB",
+            "videoId": "2vgBfquIRmk",
+            "thumbnailUrl": "https://img.youtube.com/vi/2vgBfquIRmk/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "The inertia of ideas through the universe | Jason Spyromilio | TEDxAUEB",
+            "videoId": "Oxsv9PI21-w",
+            "thumbnailUrl": "https://img.youtube.com/vi/Oxsv9PI21-w/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "The benefits of inertia | Alexandros Papandreou | TEDxAUEB",
+            "videoId": "29VO82x4q6M",
+            "thumbnailUrl": "https://img.youtube.com/vi/29VO82x4q6M/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Moving towards goals | Marios Strofalis | TEDxAUEB",
+            "videoId": "KHgFkqiEb7E",
+            "thumbnailUrl": "https://img.youtube.com/vi/KHgFkqiEb7E/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Authenticity as the antidote to inertia | Nikos Erinakis | TEDxAUEB",
+            "videoId": "_nih9rtIILQ",
+            "thumbnailUrl": "https://img.youtube.com/vi/_nih9rtIILQ/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "How to get young people to give? | Rolf Leger | TEDxAUEB",
+            "videoId": "vSc4aC9OGqE",
+            "thumbnailUrl": "https://img.youtube.com/vi/vSc4aC9OGqE/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "Overcoming inertia: how small changes can have big impact | Kalipso Karantinou | TEDxAUEB",
+            "videoId": "3uvUx57t838",
+            "thumbnailUrl": "https://img.youtube.com/vi/3uvUx57t838/0.jpg",
+            "year": "2015",
+            "event": "INERTIA"
+        },
+        {
+            "title": "From zero be your own hero | Fanis Dellios | TEDxAUEB",
+            "videoId": "DPqm4PBYuos",
+            "thumbnailUrl": "https://img.youtube.com/vi/DPqm4PBYuos/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Mind the gap, towards the future | Tasos Pagakis | TEDxAUEB",
+            "videoId": "liHpaEnUy4k",
+            "thumbnailUrl": "https://img.youtube.com/vi/liHpaEnUy4k/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Taking Public Education Forward | Nikos Sioutas | TEDxAUEB",
+            "videoId": "OB1rhhw8_A4",
+            "thumbnailUrl": "https://img.youtube.com/vi/OB1rhhw8_A4/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "An emerging path from the past | Iordanis Ladopoulos | TEDxAUEB",
+            "videoId": "Swhti0dtND4",
+            "thumbnailUrl": "https://img.youtube.com/vi/Swhti0dtND4/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Working from your bedroom | ARIS DIMOKIDIS | TEDxAUEB",
+            "videoId": "X9oZyZAk2JA",
+            "thumbnailUrl": "https://img.youtube.com/vi/X9oZyZAk2JA/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Bitcoin as an emerging path | ANTONIS TSAKOUMIS | TEDxAUEB",
+            "videoId": "AU-H7sF-7fU",
+            "thumbnailUrl": "https://img.youtube.com/vi/AU-H7sF-7fU/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "The paths we take | YONATAN RAZ-FRIDMAN | TEDxAUEB",
+            "videoId": "Nt7CXkWfItM",
+            "thumbnailUrl": "https://img.youtube.com/vi/Nt7CXkWfItM/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Fear is the border we have to surpass | Olivia Kyriakidou | TEDxAUEB",
+            "videoId": "Qho4RLFb_Nw",
+            "thumbnailUrl": "https://img.youtube.com/vi/Qho4RLFb_Nw/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Social media -- quality over quantity | Dimitris Kanellis | TEDxAUEB",
+            "videoId": "zfKwUkwWm5U",
+            "thumbnailUrl": "https://img.youtube.com/vi/zfKwUkwWm5U/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Creativity and innovation can save the world | Donnie Lygonis | TEDxAUEB",
+            "videoId": "38ys2Jvd2nc",
+            "thumbnailUrl": "https://img.youtube.com/vi/38ys2Jvd2nc/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Being creative and entrepreneurial | Zoi Kantounatou | TEDxAUEB",
+            "videoId": "dmzIo6nSP3M",
+            "thumbnailUrl": "https://img.youtube.com/vi/dmzIo6nSP3M/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Moving to Greece to make wine | Laurens Hartman | TEDxAUEB",
+            "videoId": "6Dcd9s0HuH0",
+            "thumbnailUrl": "https://img.youtube.com/vi/6Dcd9s0HuH0/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Playing with Technology | Nick Adam | TEDxAUEB",
+            "videoId": "yoN0oeS-Klg",
+            "thumbnailUrl": "https://img.youtube.com/vi/yoN0oeS-Klg/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Act to change | Panagiotis Kantas | TEDxAUEB",
+            "videoId": "YTufoqTgADs",
+            "thumbnailUrl": "https://img.youtube.com/vi/YTufoqTgADs/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Brands that dream | Xavier Oliver | TEDxAUEB",
+            "videoId": "LD-Hm4oYweE",
+            "thumbnailUrl": "https://img.youtube.com/vi/LD-Hm4oYweE/0.jpg",
+            "year": "2014",
+            "event": "ENERGING PATHS"
+        },
+        {
+            "title": "Reel Stories: Valerie Kontakos at TEDxAUEB",
+            "videoId": "MBhL_PpttHI",
+            "thumbnailUrl": "https://img.youtube.com/vi/MBhL_PpttHI/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Big Data: Fine Granularity Understanding: Damianos Xantziantoniou at TEDxAUEB",
+            "videoId": "MIjYg5rEUsw",
+            "thumbnailUrl": "https://img.youtube.com/vi/MIjYg5rEUsw/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Μικρός ήθελα να γίνω ταξιτζής : Theofilos Vasileiadis at TEDxAUEB",
+            "videoId": "75jOtOWavBo",
+            "thumbnailUrl": "https://img.youtube.com/vi/75jOtOWavBo/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "How does a re-used tee change the world?: Swap not Shop at TEDxAUEB",
+            "videoId": "8Y9vPKDUTYo",
+            "thumbnailUrl": "https://img.youtube.com/vi/8Y9vPKDUTYo/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Ξέχνα ποιος είσαι, για να βρεις ποιος είσαι: Giorgos Kolliopoulos at TEDxAUEB",
+            "videoId": "5__oCiczisY",
+            "thumbnailUrl": "https://img.youtube.com/vi/5__oCiczisY/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Learning life's single happiness criterion: Petroula Karagianni at TEDxAUEB",
+            "videoId": "vIj5298iwbI",
+            "thumbnailUrl": "https://img.youtube.com/vi/vIj5298iwbI/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Future of work: Dimitris Tsakos at TEDxAUEB",
+            "videoId": "jYL6e2c0Piw",
+            "thumbnailUrl": "https://img.youtube.com/vi/jYL6e2c0Piw/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Με μια διαφορετική ματιά: Klimis Pirounakis at TEDxAUEB",
+            "videoId": "hOB2zMjObVA",
+            "thumbnailUrl": "https://img.youtube.com/vi/hOB2zMjObVA/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Redefining your work reality: Eleonora Viviani at TEDxAUEB",
+            "videoId": "4BQLaLEYz5Y",
+            "thumbnailUrl": "https://img.youtube.com/vi/4BQLaLEYz5Y/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Food Scouter \"Radiki\" : Sotiris Lymperopoulos at TEDxAUEB",
+            "videoId": "V1rjphCd45M",
+            "thumbnailUrl": "https://img.youtube.com/vi/V1rjphCd45M/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        },
+        {
+            "title": "Youth vs The Crisis: Sophie Lamprou at TEDxAUEB",
+            "videoId": "4RLf1B6GxC0",
+            "thumbnailUrl": "https://img.youtube.com/vi/4RLf1B6GxC0/0.jpg",
+            "year": "2013",
+            "event": "Redefining Reality"
+        }
+    ]
+}
