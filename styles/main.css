@@ -17,6 +17,108 @@
 body {
     height: 100%;
     font-family: var(--manrope-font);
-    background: #333;
+    background: #1f1f1f;
 }
 
+.home-hero img {
+    width: 100%;
+    max-height: 100vh;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.home-about {
+    color: white;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-about img {
+    max-width: 300px;
+}
+
+.tiktok-talks {
+    padding: 5% 10%;
+    color: white;
+    text-align: center;
+}
+
+.tiktok-talks h2 {
+    font-size: calc(20px + 1vw);
+}
+
+.tiktok-videos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.team img {
+    width: 80%;
+    max-height: 60vh;
+    object-fit: contain;
+}
+
+.team, .events-history {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.team {
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.team h2,.events-history h2 {
+    color: #eb0028;
+    text-align: center;
+    font-size: calc(20px + 1vw);
+}
+
+.team p, .events-history p {
+    color: white;
+    text-align: center;
+    font-size: calc(14px + 0.5vw);
+    padding: 0 5%;
+}
+
+.tiles__row {
+	display: flex;
+    overflow-x: scroll;
+    user-select: none;
+    
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
+
+}
+
+img {
+	aspect-ratio: var(--aspect-width) / var(--aspect-height);
+	object-fit: cover;
+    max-height: 40vh;
+}
+
+.custom-btn {
+    color: white;
+    text-align: center;
+    font-size: calc(14px + 1vw);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px white solid;
+    align-self: center;
+}
+
+.custom-btn:hover {
+    color: #eb0028;
+    background-color: white;
+    font-weight: 600;
+}

@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="About | TEDxAUEB 2025">
+    <meta name="description" content="TEDxAUEB 2025">
     <meta name="author" content="TEDxAUEB">
-    <title>About | TEDxAUEB 2025</title>
+    <title>TEDxAUEB 2025</title>
     <link rel="icon" type="image/png" href="styles/images/favicon.png">
 
     <!-- Stylesheets CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/header-footer.css">
-    <link rel="stylesheet" href="styles/scroll.css">
+    <!-- <link rel="stylesheet" href="styles/scroll.css"> -->
 
     <!-- Scripts JS -->
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
@@ -21,10 +21,52 @@
 </head>
 
 <body>
+    <div class="root">
+        <div class="main-container">
+            <header class="head">
+                <a target="_blank" href="https://tedxaueb.org/">
+                    <img class="logo" src="styles/images/TEDxAUEB-white.webp" alt="TEDxAUEB Logo"
+                        style="display: block;">
+                </a>
+                <nav class="menu">
+                    <ul>
+                        <li><a target="_blank" href="https://tedxaueb.org/">Home</a></li>
+                        <li><a target="_blank" href="https://tedxaueb.org/about-ted/">About Us</a></li>
+                        <li><a target="_blank" href="https://tedxaueb.org/history/">Discover</a></li>
+                        <li><a target="_blank" href="https://tedxaueb.org/meet-the-team/">Team</a></li>
+                    </ul>
+                </nav>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar bar1"></span>
+                    <span class="bar bar2"></span>
+                    <span class="bar bar3"></span>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <div class="overlay-menu" id="overlayMenu">
+        <div class="overlay-header">
+            <div class="close-btn" id="closeBtn"></div>
+        </div>
+        <nav class="overlay-nav">
+            <ul>
+                <li><a target="_blank" href="https://tedxaueb.org/">Home</a></li>
+                <li><a target="_blank" href="https://tedxaueb.org/about-ted/">About Us</a></li>
+                <li><a target="_blank" href="https://tedxaueb.org/history/">Discover</a></li>
+                <li><a target="_blank" href="https://tedxaueb.org/meet-the-team/">Team</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
     <main>
-        <section class="content fluid">
+
+        <section class="home-hero">
+            <img src="styles/images/tedxaueb-bg.png">
+        </section>
+
+        <!-- <section class="content fluid">
             <h2><span aria-hidden="true">let's TED talk about&nbsp;</span>
                 <span class="sr-only">you can ship things.</span>
             </h2>
@@ -48,10 +90,201 @@
                 <li style="--i: 16">everything.</li>
             </ul>
         </section>
+        <script src="js/scroll.js"></script> -->
+        <section class="home-about">
+            <img src="styles/images/TEDxAUEB_Logo_White_419x62.png">
+            <p>Το TEDxAUEB ήταν μια πρωτοβουλία των φοιτητών του Οικονομικού Πανεπιστημίου Αθηνών για τη δημιουργία του
+                πρώτου TEDxUniversity στην Ελλάδα το 2013.
 
+                Μετά από δώδεκα επιτυχημένες εκδηλώσεις, το Οικονομικό Πανεπιστήμιο Αθηνών είναι το κορυφαίο
+                Πανεπιστήμιο στην Ελλάδα στη διοργάνωση και την πραγματοποίηση εκδηλώσεων TEDx University.
+
+                Στόχος μας είναι να δημιουργήσουμε μια ιδέα χρησιμοποιώντας διεπιστημονικά παραδείγματα από την
+                τέχνη,την εκπαίδευση, την τεχνολογία, το σχέδιο, τον πολιτισμό, την επιστήμη, τον αθλητισμό και τις
+                επιχειρήσεις.</p>
+                <a class="custom-btn" href="about.html">Learn More About Us</a>
+        </section>
+
+        <section class="team">
+            <h2>Organizing Team</h2>
+            <p>Tο TEDxAueb επιστρέφει για 13η συνεχόμενη χρονιά με σκοπό να συνεχίσει να μοιράζεται με το κοινό του
+                “Ιδέες που Αλλάζουν τα Πάντα”!
+                <br><br>
+                Αυτό που κάνει, όμως, το event μας κάθε χρόνο τόσο ξεχωριστό είναι η ομάδα πίσω από αυτό. Κάθε χρόνο, η
+                οργανωτική ομάδα του TEDxAueb με στόχο να εμπνεύσει, να ευαισθητοποιήσει και να κινητοποιήσει, προσφέρει
+                στα μέλη της κοινότητάς του, και όχι μόνο, μία μοναδική εμπειρία.
+            </p>
+            <img src="styles/images/team/team-2025.jpg">
+            <a class="custom-btn" href="team.html">Meet Our Team</a>
+        </section>
+
+        <section class="events-history">
+            <h2>Previous Events</h2>
+            <p>Ενώ προετοιμαζόμαστε για το 13ο TEDxAUEB, μπορούμε ταυτόχρονα να θυμηθούμε τα παλαιότερα μας events.
+                <br><br>
+                Μπορείς να περιπλανηθείς στην ιστορία του TEDxAueb, να ανακαλύψεις προηγούμενες ομιλίες, εισηγητές και
+                θέματα που μας έκαναν να σκεφτόμαστε. H ιστορία του TEDxAUEB σου δίνει τη δυνατότητα να ξαναζείς τις
+                στιγμές αυτές, με τις ομιλίες που σε συγκινούν και σε κάνουν να σκεφτείς. Όλα αυτά τα υπέροχα
+                περιεχόμενα και το όμορφο σχεδιασμός της σελίδας δημιουργούν μια εμπειρία πλοήγησης που μένει στην
+                καρδιά και στο μυαλό σου.</p>
+            <section>
+                <div class="tiles">
+                    <div class="tiles__row">
+                        <img src="styles/images/events/palimpsesto/palimpsesto-bg_cover.png" alt="">
+                        <img src="styles/images/events/pangea/pangea-image.png" alt="">
+                        <img src="styles/images/events/antistixis/antistixis-banner.png" alt="">
+                        <img src="styles/images/events/halcyon/halcyon.jpg" alt="">
+                        <img src="styles/images/events/xyz/xyz_banner.jpg" alt="">
+                        <img src="styles/images/events/blank/blank.jpg" alt="">
+                        <img src="styles/images/events/arctos/arctos-image.jpg" alt="">
+                        <img src="styles/images/events/mosaic/mosaic-banner.png" alt="">
+                        <img src="styles/images/events/flow/flow.png" alt="">
+                        <img src="styles/images/events/inertia/inertia.jpg" alt="">
+                        <img src="styles/images/events/emerging-paths/emerging_paths.jpg" alt="">
+                        <img src="styles/images/events/rere/redefining-banner.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <a class="custom-btn" href="history.html">See previous Events</a>
+        </section>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const tiles = document.querySelector(".tiles__row");
+                tiles.addEventListener("wheel", (e) => {
+                    e.preventDefault(); // Prevent vertical scrolling
+                    tiles.scrollLeft += e.deltaY; // Scroll horizontally
+                });
+            });
+        </script>
+
+        <section class="tiktok-talks">
+            <h2>Let's [TED] talk</h2>
+            <section class="tiktok-videos">
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7475029008409808150"
+                        data-video-id="7475029008409808150"
+                        style="max-width: 325px; min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a>
+                            Let’s [TED]talk About: ADULTHOOD &#38; THE 20s ✨ PART 2 ✨ Don’t forget to watch part 1
+                            first! 🙌
+                            <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7475029025758792470?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7473927635123326230"
+                        data-video-id="7473927635123326230"
+                        style="max-width: 325px;min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a> “Let’s [ TED ] talk
+                            about:”
+                            ADULTHOOD &#38; 20s ✨ Η δεκαετία των 20 είναι γεμάτη αλλαγές, προκλήσεις και νέες ευκαιρίες.
+                            Βγαίνουμε στους δρόμους της Αθήνας, ψάχνοντας ανθρώπους που θέλουν να μοιραστούν τις
+                            εμπειρίες και
+                            τις σκέψεις τους για την ενηλικίωση. Πώς φανταζόσουν την ενηλικίωση και πώς είναι στην
+                            πραγματικότητα; Αν μπορούσες να δώσεις μια συμβουλή στον νεότερο εαυτό σου, ποια θα ήταν;
+                            Μείνε
+                            συντονισμένος για το part 2! 😉 <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7473927662155647766?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7470192463106379030"
+                        data-video-id="7470192463106379030"
+                        style="max-width: 325px;min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a> Let’s [TED]talk About
+                            : HOPE
+                            AND DREAMS🪽 ✨PART 2✨ Don’t forget to watch part 1 first !🫣
+                            <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7470192466961140503?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7468363119438335254"
+                        data-video-id="7468363119438335254"
+                        style="max-width: 325px;min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a> “Let’s [ TED ] talk
+                            about:”
+                            HOPE &#38; DREAMS ✨ Βρισκόμαστε ξανά στους δρόμους της Αθήνας, αναζητώντας ανθρώπους
+                            έτοιμους να
+                            μοιραστούν τις ελπίδες και τα όνειρά τους. Τι σημαίνει ελπίδα για εσένα; Ποιο είναι το
+                            όνειρό σου
+                            για το μέλλον; Μείνε συντονισμένος για το part 2! 😉
+                            <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7468363119237155606?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7464654124391386390"
+                        data-video-id="7464654124391386390"
+                        style="max-width: 325px;min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a> Let’s [ TED ]talk
+                            About: LOVE
+                            ✨PART 2✨ Μην ξεχάσεις να δεις πρώτα το part 1 !
+                            <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7464654122936781590?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+
+                <div class="tiktok-video">
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tedxaueb/video/7463207230393912578"
+                        data-video-id="7463207230393912578"
+                        style="max-width: 325px;min-width: 325px; border-radius: 6px;">
+                        <section> <a target="_blank" title="@tedxaueb"
+                                href="https://www.tiktok.com/@tedxaueb?refer=embed">@tedxaueb</a> “Let’s [ TED ] talk
+                            about:”
+                            Για δεύτερη συνεχόμενη χρονιά, η αγαπημένη μας μίνι σειρά επιστρέφει, ταξιδεύοντάς μας στους
+                            δρόμους
+                            της Αθήνας. Μέσα από αυθεντικές συναντήσεις με αγνώστους, μας θυμίζει τη μαγεία του να
+                            μοιραζόμαστε
+                            σκέψεις, συναισθήματα και στιγμές που τόσο πολύ μας είχαν λείψει! LOVE Αυτή την εβδομάδα
+                            αποφασίσαμε
+                            να μιλήσουμε για την ✨Αγάπη✨, για το τι σημαίνει για τον κάθε έναν αλλά και πως αυτή μπορεί
+                            να μας
+                            επηρεάσει. Τα παιδιά μας έδωσαν καταπληκτικές απαντήσεις και δεν μπορέσαμε να τις χωρέσουμε
+                            σε ένα
+                            βίντεο🥹 Απολαύστε το part 1 και stay tuned για το part 2 😉
+                            <a target="_blank" title="♬ original sound - TEDXAUEB"
+                                href="https://www.tiktok.com/music/original-sound-7463207229662907158?refer=embed">♬
+                                original
+                                sound - TEDXAUEB</a>
+                        </section>
+                    </blockquote>
+                    <script async src="https://www.tiktok.com/embed.js"></script>
+                </div>
+            </section>
+        </section>
 
     </main>
-    <script src="js/scroll.js"></script>
+
 
     <footer>
         <div class="top-footer">
