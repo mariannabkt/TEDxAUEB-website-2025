@@ -59,9 +59,8 @@
         </nav>
     </div>
 
-    <section class="team-hero" style="background-image: url(styles/images/team/team-2025.jpg);">
-        <img class="team-hero-img" src="styles/images/team/team-2025.jpg">
-        <h1 class="team-heading">Meet the Team</h1>
+    <section class="team-hero">
+        <img class="team-hero-img" src="styles/images/team/TEAM-BLACK.png">
     </section>
 
     <main class="team">
@@ -72,13 +71,42 @@
                 <h1 class="team-title-mult">Curator</h1>
                 <img class="team-img" src="styles/images/team/curator/PLATON (11).JPG">
             </section>
+            <script>
+                window.addEventListener('scroll', function () {
+                    const teamImg = document.querySelector('.team-img');
+                    const teamTitleMult = document.querySelector('.team-title-mult');
+
+                    // Get the position of the image and title on the page
+                    const imgRect = teamImg.getBoundingClientRect();
+                    const titleRect = teamTitleMult.getBoundingClientRect();
+
+                    // Calculate how much the title overlaps the image
+                    const titleHeight = titleRect.height;
+                    const imgHeight = imgRect.height;
+
+                    // Calculate the top and bottom of the title relative to the image
+                    const topOffset = Math.max(0, titleRect.bottom - imgRect.top); // How much the title's top is below the image's top
+                    const bottomOffset = Math.max(0, imgRect.bottom - titleRect.top); // How much the title's bottom is above the image's bottom
+
+                    // Set the clip-path dynamically based on the scroll position
+                    let clipTop = Math.min(titleHeight - topOffset, titleHeight); // Ensure top is within bounds
+                    let clipBottom = Math.min(titleHeight - bottomOffset, titleHeight); // Ensure bottom is within bounds
+
+                    // Apply the clip-path property to the second title (multiplied text)
+                    teamTitleMult.style.clipPath = `inset(${clipTop}px 0 ${clipBottom}px 0)`;
+                    console.log(clipTop,clipBottom);
+                });
+
+
+
+            </script>
             <div class="team-desc">
                 <p>Ο curator, <b style="font-size: calc(14px + 1.5vw)"></b>
                     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/platonbaklatzis">
                         Πλάτωνας Μπακλατζής <i class="fa-brands fa-linkedin" style="display: inline-block;"></i>
                     </a>
                     , είναι υπεύθυνος για τον συντονισμό και την
-                    οργάνωση των 8 ομάδων του TEDxAUEB. Είναι εδώ για να
+                    οργάνωση των 9 ομάδων του TEDxAUEB. Είναι εδώ για να
                     κάνει πολλά, αλλά κυρίως για να επιβεβαιώσει πως όλα
                     θα πάνε καλά και το TEDxAUEB θα είναι μια μοναδική εμπειρία.
                 </p>
@@ -97,7 +125,7 @@
                 <div class="team-grid-item">
                     <img class="team-member-img" src="styles/images/team/curator/TEDDY (3).JPG">
                     <div class="info">
-                        <h2 class="name">Teddy</h2>
+                        <h2 class="name">TEDdy</h2>
                         <h3 class="role">Mascot</h3>
                     </div>
                 </div>

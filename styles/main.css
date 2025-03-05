@@ -60,30 +60,30 @@ body {
 }
 
 
-.team img {
+.team-home img {
     width: 80%;
     max-height: 60vh;
     object-fit: contain;
 }
 
-.team, .events-history {
+.team-home, .events-history {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.team {
+.team-home {
     align-items: center;
     margin-bottom: 50px;
 }
 
-.team h2,.events-history h2 {
+.team-home h2,.events-history h2 {
     color: #eb0028;
     text-align: center;
     font-size: calc(20px + 1vw);
 }
 
-.team p, .events-history p {
+.team-home p, .events-history p {
     color: white;
     text-align: center;
     font-size: calc(14px + 0.5vw);
@@ -101,11 +101,6 @@ body {
 
 }
 
-img {
-	aspect-ratio: var(--aspect-width) / var(--aspect-height);
-	object-fit: cover;
-    max-height: 40vh;
-}
 
 .custom-btn {
     color: white;
