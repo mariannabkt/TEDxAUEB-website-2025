@@ -30,10 +30,13 @@
                 </a>
                 <nav class="menu">
                     <ul>
-                        <li><a target="_blank" href="https://tedxaueb.org/">Home</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/about-ted/">About Us</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/history/">Discover</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/meet-the-team/">Team</a></li>
+                        <li><a href="https://tedxaueb.org/">Home</a></li>
+                        <li><a href="https://tedxaueb.org/about.html">About</a></li>
+                        <li><a href="https://tedxaueb.org/history.html">Events</a></li>
+                        <li><a href="https://tedxaueb.org/team.html">Team</a></li>
+                        <li><a href="https://tedxaueb.org/talks.html">Talks</a></li>
+                        <li><a href="https://blog.tedxaueb.org">Blog</a></li>
+                        <li><a target="_blank" href="https://amalthea.tedxaueb.org">Amalthea</a></li>
                     </ul>
                 </nav>
                 <div class="hamburger" id="hamburger">
@@ -71,35 +74,7 @@
                 <h1 class="team-title-mult">Curator</h1>
                 <img class="team-img" src="styles/images/team/curator/PLATON (11).JPG">
             </section>
-            <script>
-                window.addEventListener('scroll', function () {
-                    const teamImg = document.querySelector('.team-img');
-                    const teamTitleMult = document.querySelector('.team-title-mult');
-
-                    // Get the position of the image and title on the page
-                    const imgRect = teamImg.getBoundingClientRect();
-                    const titleRect = teamTitleMult.getBoundingClientRect();
-
-                    // Calculate how much the title overlaps the image
-                    const titleHeight = titleRect.height;
-                    const imgHeight = imgRect.height;
-
-                    // Calculate the top and bottom of the title relative to the image
-                    const topOffset = Math.max(0, titleRect.bottom - imgRect.top); // How much the title's top is below the image's top
-                    const bottomOffset = Math.max(0, imgRect.bottom - titleRect.top); // How much the title's bottom is above the image's bottom
-
-                    // Set the clip-path dynamically based on the scroll position
-                    let clipTop = Math.min(titleHeight - topOffset, titleHeight); // Ensure top is within bounds
-                    let clipBottom = Math.min(titleHeight - bottomOffset, titleHeight); // Ensure bottom is within bounds
-
-                    // Apply the clip-path property to the second title (multiplied text)
-                    teamTitleMult.style.clipPath = `inset(${clipTop}px 0 ${clipBottom}px 0)`;
-                    console.log(clipTop,clipBottom);
-                });
-
-
-
-            </script>
+            <script src="js/team-title-scroll.js"></script>
             <div class="team-desc">
                 <p>Ο curator, <b style="font-size: calc(14px + 1.5vw)"></b>
                     <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/platonbaklatzis">
@@ -113,7 +88,7 @@
             </div>
             <section class="team-grid two-m">
                 <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/curator/PLATON-(10).png">
+                    <img class="team-member-img" src="styles/images/team/curator/PLATON (10).png">
                     <div class="info">
                         <h2 class="name">Πλάτωνας Μπακλατζής</h2>
                         <h3 class="role">Curator</h3>
@@ -123,10 +98,71 @@
                     </div>
                 </div>
                 <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/curator/TEDDY (3).JPG">
+                    <img class="team-member-img" src="styles/images/team/curator/TEDDY (3).png">
                     <div class="info">
                         <h2 class="name">TEDdy</h2>
                         <h3 class="role">Mascot</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="team-section">
+            <section class="scroll-section">
+                <h1 class="team-title">Speakers</h1>
+                <h1 class="team-title-mult">Speakers</h1>
+                <img class="team-img" src="styles/images/team/Speakers/speakers (18).JPG">
+            </section>
+            <div class="team-desc">
+                <p>Η ομάδα των Speakers μπορούμε να συμφωνήσουμε πως βρίσκεται στην καρδιά του event. Αναλύουν εκτενώς
+                    το θέμα του και τις διαστάσεις που μπορεί να λάβει, προσεγγίζουν πιθανούς ομιλητές που θεωρούν πως
+                    έχουν ιδέες που αξίζει να διαδοθούν και χτίζουν μαζί τους την ομιλία που πρόκειται να παρουσιαστεί.
+                </p>
+            </div>
+            <section class="team-grid five-m" id="speakers">
+                <div class="team-grid-item" id="sara">
+                    <img class="team-member-img" src="styles/images/team/Speakers/sara (15).png">
+                    <div class="info">
+                        <h2 class="name">Σάρα Σέφα</h2>
+                        <h3 class="role">Director</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Speakers/dimitris (3).png">
+                    <div class="info">
+                        <h2 class="name">Δημήτρης Ανδρίτσος</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Speakers/vranas (14).png">
+                    <div class="info">
+                        <h2 class="name">Κωνσταντίνος Βρανάς</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Speakers/efi (5).png">
+                    <div class="info">
+                        <h2 class="name">Έφη Ζαϊτίδη</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://linkedin.com/in/ευφημία-ζαϊτίδη-512a172a0">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).png">
+                    <div class="info">
+                        <h2 class="name">Λευτέρης Στυλιανίδης</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/lefteris-stylianidis-b374a3269">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -145,11 +181,7 @@
             </div>
             <section class="team-grid three-m">
                 <div class="team-grid-item" id="katerina">
-                    <div class="image-wrapper">
-                        <img class="team-member-img" src="styles/images/team/Design/KATERINA (16).png"
-                            alt="Front Image">
-                    </div>
-
+                    <img class="team-member-img" src="styles/images/team/Design/KATERINA (16).png">
                     <div class="info">
                         <h2 class="name">Κατερίνα Παρδαλού</h2>
                         <h3 class="role">Director</h3>
@@ -159,7 +191,7 @@
                     </div>
                 </div>
                 <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Design/FRAGISKOS (5)purple.png">
+                    <img class="team-member-img" src="styles/images/team/Design/FRAGISKOS (5).png">
                     <div class="info">
                         <h2 class="name">Φραγκίσκος Κουρής</h2>
                         <h3 class="role">Manager</h3>
@@ -185,6 +217,146 @@
 
         <section class="team-section">
             <section class="scroll-section">
+                <h1 class="team-title">Experience</h1>
+                <h1 class="team-title-mult">Experience</h1>
+                <img class="team-img" src="styles/images/team/Experience/PIRI (7).JPG">
+            </section>
+            <div class="team-desc">
+                <p>Η ομάδα του Experience μέσα από δημιουργικές ιδέες φροντίζει να παρέχει μια ολοκληρωμένη και
+                    διαδραστική εμπειρία στους συμμετέχοντες. Προετοιμάζει τα workshops συνεργαζόμενη με οργανισμούς ή
+                    κοινότητες για την υλοποίηση τους, σχεδιάζει τα activities, καθώς και διαδραστικά installations.
+                </p>
+            </div>
+            <section class="team-grid five-m" id="experience">
+                <div class="team-grid-item" id="mise">
+                    <img class="team-member-img" src="styles/images/team/Experience/MISE (6).png">
+                    <div class="info">
+                        <h2 class="name">Μιχάλης Μισεγιάννης</h2>
+                        <h3 class="role">Director</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/michalis-misegiannis-4757bb270">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Experience/ELINA (7).png">
+                    <div class="info">
+                        <h2 class="name">Ελίνα Μπιμπίρη</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Experience/TSAKAKOS (18).png">
+                    <div class="info">
+                        <h2 class="name">Αλέξανδρος Τσακάκος</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/alexandros-tsakakos">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Experience/GEORGIA (2).png">
+                    <div class="info">
+                        <h2 class="name">Γεωργία Μαρίτσα</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/georgia-maritsa-09b475308">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Experience/MOURIKIS (1).png">
+                    <div class="info">
+                        <h2 class="name">Δημήτρης Μουρίκης</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="team-section">
+            <section class="scroll-section">
+                <h1 class="team-title">Sales</h1>
+                <h1 class="team-title-mult">Sales</h1>
+                <img class="team-img" src="styles/images/team/Sales/sales (5).JPG">
+            </section>
+            <div class="team-desc">
+                <p>Η ομάδα των Sales επικοινωνεί με πιθανούς χορηγούς και διαπραγματεύεται προϊοντικές και χρηματικές
+                    χορηγίες. Έχει την ικανότητα να βρίσκει πάντα λύση στις υπόλοιπες ομάδες, καλύπτοντας με χορηγίες
+                    τις ανάγκες τους.
+                </p>
+            </div>
+            <section class="team-grid seven-m" id="sales">
+                <div class="team-grid-item" id="vivian">
+                    <img class="team-member-img" src="styles/images/team/Sales/VIVIAN (4).JPG">
+                    <div class="info">
+                        <h2 class="name">Βίβιαν Μπόκου</h2>
+                        <h3 class="role">Director</h3>
+                        <a class="linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/paraskevi-eleni-bokou-679274274">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/DIMITRIS (9).JPG">
+                    <div class="info">
+                        <h2 class="name">Δημήτρης Μιχαήλ</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/dimitrios-michail-93a1b3259/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/lianna (11).JPG">
+                    <div class="info">
+                        <h2 class="name">Λιάννα Κωνσταντοπούλου</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank"
+                            href="https://www.linkedin.com/in/αμυγδαλια-αννα-κωνσταντοπουλου-b39187337">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/maro (4).JPG">
+                    <div class="info">
+                        <h2 class="name">Μάρω Λιγνού</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/maro-lignou-109b962b1">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/MONICA (5).JPG">
+                    <div class="info">
+                        <h2 class="name">Μόνικα Σκουφίτσα</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/tsarado (6).JPG">
+                    <div class="info">
+                        <h2 class="name">Δημήτρης Αντωνιάδης</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/Sales/starvroula (5).JPG">
+                    <div class="info">
+                        <h2 class="name">Σταυρούλα Αλεξανδροπούλου</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="team-section">
+            <section class="scroll-section">
                 <h1 class="team-title">Production</h1>
                 <h1 class="team-title-mult">Production</h1>
                 <img class="team-img" src="styles/images/team/Production/prod (12).JPG">
@@ -201,9 +373,6 @@
                     <div class="info">
                         <h2 class="name">Μιχάλης Ρεμούντης</h2>
                         <h3 class="role">Director</h3>
-                        <a class="linkedin" target="_blank" href="">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
                     </div>
                 </div>
                 <div class="team-grid-item">
@@ -211,9 +380,6 @@
                     <div class="info">
                         <h2 class="name">Μαρίλια Γκουτσούλα</h2>
                         <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
                     </div>
                 </div>
                 <div class="team-grid-item">
@@ -221,9 +387,76 @@
                     <div class="info">
                         <h2 class="name">Κυριακή Παραστατίδου </h2>
                         <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="team-section">
+            <section class="scroll-section">
+                <h1 class="team-title">Marketing</h1>
+                <h1 class="team-title-mult">Marketing</h1>
+                <img class="team-img" src="styles/images/team/MKT/MKT (5).JPG">
+            </section>
+            <div class="team-desc">
+                <p>Τα μέλη της ομάδας του Marketing είναι οι εμπνευστές του περιεχομένου κάθε δημοσίευσης που
+                    πραγματοποιείται στα social media, αναζητούν τους media partners και διαφορά μικρά special events,
+                    γράφουν blog posts φροντίζοντας για το SEO και είναι υπεύθυνα για το newsletter
+                </p>
+            </div>
+            <section class="team-grid six-m">
+                <div class="team-grid-item" id="georgia">
+                    <img class="team-member-img" src="styles/images/team/MKT/GEORGIA (5).JPG">
+                    <div class="info">
+                        <h2 class="name">Γεωργία Άγα</h2>
+                        <h3 class="role">Director</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/georgia-aga-3a0a16209">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/MKT/AGGELIKI (1).JPG">
+                    <div class="info">
+                        <h2 class="name">Αγγελική Μπογιατζή</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/angeliki-bogiatzi">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/MKT/MARTHA (2).JPG">
+                    <div class="info">
+                        <h2 class="name">Μάρθα Δοντά</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/martha-donta-b7483a255">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/MKT/ELENI (30).JPG">
+                    <div class="info">
+                        <h2 class="name">Ελένη Βιδάλη</h2>
+                        <h3 class="role">Manager</h3>
+                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/eleni-vidali-802055213">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/MKT/MARIA (20).JPG">
+                    <div class="info">
+                        <h2 class="name">Μαρία Σαρηγεωργίου</h2>
+                        <h3 class="role">Manager</h3>
+                    </div>
+                </div>
+                <div class="team-grid-item">
+                    <img class="team-member-img" src="styles/images/team/MKT/PIGI (10).JPG">
+                    <div class="info">
+                        <h2 class="name">Πηγή Κασαπλέρη</h2>
+                        <h3 class="role">Manager</h3>
                     </div>
                 </div>
             </section>
@@ -283,7 +516,7 @@
             </div>
             <section class="team-grid two-m">
                 <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Volunteers-Bonding/mimi (26).JPG">
+                    <img class="team-member-img" src="styles/images/team/Volunteers-Bonding/mimi (26).png">
                     <div class="info">
                         <h2 class="name">Δήμητρα Πουλουπάτη</h2>
                         <h3 class="role">Director</h3>
@@ -293,239 +526,11 @@
                     </div>
                 </div>
                 <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Volunteers-Bonding/zoi (10).JPG">
+                    <img class="team-member-img" src="styles/images/team/Volunteers-Bonding/zoi (10).png">
                     <div class="info">
                         <h2 class="name">Ζωή Χριστοδουλάκη</h2>
                         <h3 class="role">Director</h3>
                         <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/zoichristodoulaki">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <section class="team-section">
-            <section class="scroll-section">
-                <h1 class="team-title">Speakers</h1>
-                <h1 class="team-title-mult">Speakers</h1>
-                <img class="team-img" src="styles/images/team/Speakers/speakers (18).JPG">
-            </section>
-            <div class="team-desc">
-                <p>Η ομάδα των Speakers μπορούμε να συμφωνήσουμε πως βρίσκεται στην καρδιά του event. Αναλύουν εκτενώς
-                    το θέμα του και τις διαστάσεις που μπορεί να λάβει, προσεγγίζουν πιθανούς ομιλητές που θεωρούν πως
-                    έχουν ιδέες που αξίζει να διαδοθούν και χτίζουν μαζί τους την ομιλία που πρόκειται να παρουσιαστεί.
-                </p>
-            </div>
-            <section class="team-grid five-m">
-                <div class="team-grid-item" id="sara">
-                    <img class="team-member-img" src="styles/images/team/Speakers/sara (15).JPG">
-                    <div class="info">
-                        <h2 class="name">Σάρα Σέφα</h2>
-                        <h3 class="role">Director</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/dimitris (3).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/vranas (14).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/efi (5).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <section class="team-section">
-            <section class="scroll-section">
-                <h1 class="team-title">Marketing</h1>
-                <h1 class="team-title-mult">Marketing</h1>
-                <img class="team-img" src="styles/images/team/MKT/MKT (5).JPG">
-            </section>
-            <div class="team-desc">
-                <p>Τα μέλη της ομάδας του Marketing είναι οι εμπνευστές του περιεχομένου κάθε δημοσίευσης που
-                    πραγματοποιείται στα social media, αναζητούν τους media partners και διαφορά μικρά special events,
-                    γράφουν blog posts φροντίζοντας για το SEO και είναι υπεύθυνα για το newsletter
-                </p>
-            </div>
-            <section class="team-grid six-m">
-                <div class="team-grid-item" id="georgia">
-                    <img class="team-member-img" src="styles/images/team/MKT/GEORGIA (5).JPG">
-                    <div class="info">
-                        <h2 class="name">Σάρα Σέφα</h2>
-                        <h3 class="role">Director</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/dimitris (3).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/vranas (14).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/efi (5).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <section class="team-section">
-            <section class="scroll-section">
-                <h1 class="team-title">Sales</h1>
-                <h1 class="team-title-mult">Sales</h1>
-                <img class="team-img" src="styles/images/team/Sales/sales (5).JPG">
-            </section>
-            <div class="team-desc">
-                <p>Η ομάδα των Sales επικοινωνεί με πιθανούς χορηγούς και διαπραγματεύεται προϊοντικές και χρηματικές
-                    χορηγίες. Έχει την ικανότητα να βρίσκει πάντα λύση στις υπόλοιπες ομάδες, καλύπτοντας με χορηγίες
-                    τις ανάγκες τους.
-                </p>
-            </div>
-            <section class="team-grid seven-m">
-                <div class="team-grid-item" id="vivian">
-                    <img class="team-member-img" src="styles/images/team/Sales/VIVIAN (8).JPG">
-                    <div class="info">
-                        <h2 class="name">Σάρα Σέφα</h2>
-                        <h3 class="role">Director</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/dimitris (3).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/vranas (14).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/efi (5).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="team-grid-item">
-                    <img class="team-member-img" src="styles/images/team/Speakers/lefteris (31).JPG">
-                    <div class="info">
-                        <h2 class="name">Teddy</h2>
-                        <h3 class="role">Manager</h3>
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/sara-sefa-089068201">
                             <i class="fa-brands fa-linkedin"></i>
                         </a>
                     </div>

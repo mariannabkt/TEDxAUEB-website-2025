@@ -30,10 +30,13 @@
                 </a>
                 <nav class="menu">
                     <ul>
-                        <li><a target="_blank" href="https://tedxaueb.org/">Home</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/about-ted/">About Us</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/history/">Discover</a></li>
-                        <li><a target="_blank" href="https://tedxaueb.org/meet-the-team/">Team</a></li>
+                        <li><a href="https://tedxaueb.org/">Home</a></li>
+                        <li><a href="https://tedxaueb.org/about.html">About</a></li>
+                        <li><a href="https://tedxaueb.org/history.html">Events</a></li>
+                        <li><a href="https://tedxaueb.org/team.html">Team</a></li>
+                        <li><a href="https://tedxaueb.org/talks.html">Talks</a></li>
+                        <li><a href="https://blog.tedxaueb.org">Blog</a></li>
+                        <li><a target="_blank" href="https://amalthea.tedxaueb.org">Amalthea</a></li>
                     </ul>
                 </nav>
                 <div class="hamburger" id="hamburger">
@@ -59,8 +62,8 @@
         </nav>
     </div>
 
+    <img class="about-banner" src="styles/images/about.jpg">
     <main class="about">
-        <img src="styles/images/about.jpg">
         
         <section class="about-section">
             <div class="about-title">
@@ -72,8 +75,9 @@
                 curiosity, reason, wonder and the pursuit of knowledge — without an agenda. We welcome people from every
                 discipline and culture who seek a deeper understanding of the world and connection with others, and we
                 invite everyone to engage with ideas and activate them in your community.
-                <br><br>
-                TED began in 1984 as a conference where Technology, Entertainment and Design converged, but today it
+                <br>
+            </p>
+            <p class="see-more"> TED began in 1984 as a conference where Technology, Entertainment and Design converged, but today it
                 spans a multitude of worldwide communities and initiatives exploring everything from science and
                 business to education, arts and global issues. In addition to the TED Talks curated from our annual
                 conferences and published on TED.com, we produce original podcasts, short video series, animated
@@ -86,7 +90,24 @@
                 TED launched TED Democracy to spark a new kind of conversation focused on realistic pathways towards a
                 more vibrant and equitable future. View a full list of TED’s many programs and initiatives.
             </p>
+            <button id="toggle-btn" class="more">Read More</button>
         </section>
+        <script>
+            document.getElementById("toggle-btn").addEventListener("click", function () {
+                const seeMore = document.querySelector(".see-more");
+                if (seeMore.style.display === "none" || seeMore.style.display === "") {
+                    seeMore.style.display = "block";
+                    this.textContent = "Read Less"; // Change button text
+                    this.classList.add("less");
+                    this.classList.remove("more");
+                } else {
+                    seeMore.style.display = "none";
+                    this.textContent = "Read More"; // Reset button text
+                    this.classList.add("more");
+                    this.classList.remove("less");
+                }
+            });
+        </script>
         <section class="about-section">
             <div class="about-title">
                 <h2>About </h2>

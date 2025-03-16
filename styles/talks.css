@@ -50,7 +50,8 @@
 .videos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    row-gap: 50px;
+    column-gap: 20px;
     justify-content: space-evenly;
     padding: 5%;
 }
@@ -138,4 +139,20 @@
 .video button:hover {
     color: rgb(8, 8, 8);
     background-color: white;
+}
+
+#pagination {
+    margin: 20px;
+    padding-top: 25px;
+}
+
+#pagination button {
+    background-color: #eb0028;
+    color: white;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0 10px;
+    min-width: 70px;
+    cursor: pointer;
 }

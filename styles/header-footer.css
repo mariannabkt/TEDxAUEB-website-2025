@@ -30,7 +30,7 @@
 }
 
 .logo {
-    height: 50px;
+    height: 30px;
 }
 
 .menu ul {
@@ -165,7 +165,7 @@
 
 @media (max-width: 480px) {
     .logo {
-        height: 40px; /* Adjust logo size for smaller screens */
+        height: 25px; /* Adjust logo size for smaller screens */
     }
 
     .head {
@@ -215,7 +215,7 @@ footer {
 }
 
 .footer-logo {
-    max-width: 200px; 
+    max-width: 150px; 
     height: auto;
     margin-bottom: 10px;
 }

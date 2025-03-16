@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'GFS Bodoni';
+    src: url('GFSBodoni.otf') format('opentype'),
+         url('GFSBodoni.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GFS Bodoni';
+    src: url('GFSBodoniBold.otf') format('opentype'),
+         url('GFSBodoniBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GFS Bodoni';
+    src: url('GFSBodoniBoldIt.otf') format('opentype'),
+         url('GFSBodoniBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GFS Bodoni';
+    src: url('GFSBodoniIt.otf') format('opentype'),
+         url('GFSBodoniBoldIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}

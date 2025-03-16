@@ -2,7 +2,7 @@ import requests
 import json
 
 PLAYLIST_ID = "PLE5bRppwNyPlBZnpRGCIS2RKJ5hxeLBgu"
-API_KEY = "AIzaSyCXNuJJncVKBF-poq_QjvkNE_CBJ4nl97g"
+API_KEY = "google cloud console>APIs>YouTube Data API v3>CREDENTIALS>API Keys"
 MAX_RESULTS = 50
 videos = []
 next_page_token = ""

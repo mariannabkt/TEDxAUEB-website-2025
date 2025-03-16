@@ -1,11 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('amalthea/assets/fonts/GFS_Bodoni/gfs-bodoni.css');
 
 :root {
     --manrope-font: "Manrope", arial;
     --inter-font: "Inter", arial;
     --oktah-font: "Okta Neue", arial;
+    --gfs-bodoni-font: 'GFS Bodoni', arial;
 }
 
 * {
@@ -18,6 +20,42 @@ body {
     height: 100%;
     font-family: var(--manrope-font);
     background: #1f1f1f;
+}
+
+.hero {
+    padding: 50px 50px 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    background-image: url(amalthea/assets/backgrounds/pink-wide.png);
+}
+
+.hero h2 {
+    font-size: calc(24px + 1vw);
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-logo {
+    max-width: 70%;
+    max-height: 60vh;
+}
+
+.hero-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--gfs-bodoni-font);
+    color: #364466;
+    gap: 20px;
+}
+
+.flower {
+    max-height: 100px;
 }
 
 .home-hero img {
@@ -91,6 +129,7 @@ body {
 }
 
 .tiles__row {
+    
 	display: flex;
     overflow-x: scroll;
     user-select: none;
@@ -101,6 +140,9 @@ body {
 
 }
 
+.tiles__row img {
+    height: 30vh;
+}
 
 .custom-btn {
     color: white;

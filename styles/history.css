@@ -119,7 +119,7 @@ body {
 }
 
 .slide {
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,11 +131,11 @@ body {
 }
 
 .slide .year {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .slide .title {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .slide img {
@@ -175,4 +175,48 @@ body {
     font-weight: 300;
     font-size: 2rem;
     margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .slide .title {
+        font-size: 2rem;
+    }
+
+    .slide .year {
+        font-size: 1.3rem;
+    }
+
+    .swiper-slide, .read-more {
+        font-size: 14px;
+    }
+
+    .timeline-item {
+        font-size: 0.7rem;
+    }
+
+    .timeline-item.active {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .event-content {
+        display: none;
+    }
+
+    .emerging-title {
+        font-size: 24px;
+    }
+
+    .emerging-subtitle {
+        font-size: 20px;
+    }
+
+    .timeline-container {
+        right: 70%;
+    }
+
+    .swiper {
+        width: 70%;
+    }
 }

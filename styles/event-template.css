@@ -376,3 +376,17 @@
 #rere-logo {
     max-height: 250px;
 }
+
+@media (max-width: 600px) {
+    .contents {
+        padding: 20px;
+    }
+
+    .desc {
+        font-size: 1rem;
+    }
+
+    .stats {
+        gap: 10px;
+    }
+}
